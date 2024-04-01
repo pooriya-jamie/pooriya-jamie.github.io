@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://pooriya-jamie.github.io//sitemap.xml

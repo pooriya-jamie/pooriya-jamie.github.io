@@ -6,7 +6,7 @@ subtitle: <a href='https://aut.ac.ir/'>Affiliations</a>.
 
 profile:
   align: right
-  image: linkedIn profile.jpg
+  image: linkedIn profile.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Tehran, Iran</p>

@@ -3,95 +3,76 @@
   contents:
     - name: Full Name
       value: Pooriya Jamie
-    - name: Date of Birth
-      value: 26th May 2003
-    - name: Languages
-      value: English, Persian
+    - name: Email
+      value: pooriya.jamie@gmail.com
+    - name: Website
+      value: https://pooriya-jamie.github.io/
+    - name: Location
+      value: Tehran, Iran
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: B.Sc. in Computer Science
+      institution: Amirkabir University of Technology (Tehran Polytechnic)
+      location: Tehran, Iran
+      url: https://www.aut.ac.ir/
+      area: Computer Science
+      studyType: Bachelor's Degree
+      startDate: Sep 2021
+      score: 18.5/20
+      courses:
+        - Data Mining
+        - Linear Optimization
+        - Data Structures and Algorithms
+        - Design & Analysis of Algorithms
+        - Artificial Intelligence and Workshop
+        - Image Processing
+        - Neural Networks and Introduction to Deep Learning
 
-- title: Experience
+- title: Publications
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Indian Stock Market Prediction using Augmented Financial Intelligence ML
+      authors:
+        - Chauhan, Anishka
+        - Mayur, Pratham
+        - Gokarakonda, Yeshwanth Sai
+        - Jamie, Pooriya
+        - Mehrotra, Naman
+      date: January 17, 2024
+      source: SSRN
+      url: https://ssrn.com/abstract=4697853
+      doi: http://dx.doi.org/10.2139/ssrn.4697853
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Research Assistant
+      institution: Amirkabir University of Technology (Tehran Polytechnic)
+      start_date: Feb 2023
+      end_date: Present
+      project_title: Deep Learning Approaches for Imbalanced Data in Fraud Detection
+      supervisors:
+        - Prof. Mehdi Ghatee
+        - Behnam Yousefimehr
+      description: |
+        Exploring various deep learning architectures, such as CNNs, RNNs, and GANs, to handle imbalanced datasets in fraud detection tasks. Currently working as an RA in the NORC Lab.
+    - title: Researcher in Human-Computer Interaction (HCI)
+      institution: Tehran Institute for Advanced Studies (TeIAS)
+      start_date: Oct 2023
+      end_date: Present
+      project_title: ChatGPT's Impact on Education
+      supervisors:
+        - Dr. Sharareh Alipour
+      description: |
+        Exploring the future potential of ChatGPT in research and teaching domains, analyzing its influence on individuals' lives and the transformation of practices in these fields. Conducting comprehensive studies, including surveys, interviews, and experiments, to understand how ChatGPT is adopted and utilized by researchers and educators.
+    - title: Remote Internship
+      institution: University College London (UCL)
+      start_date: Jan 2023
+      end_date: Dec 2023
+      project_title: Augmented Financial Intelligence Project
+      supervisors:
+        - Prof. Philip Treleaven
+      description: |
+        Collaborated on a team to develop a robust platform for forecasting long-term financial trends in the Indian market using diverse machine learning techniques. Played a key role in enhancing the platform's machine learning infrastructure, focusing on tasks like data preprocessing, algorithm selection, and model training. Led the literature review section of the paper, analyzing existing research and summarizing machine learning aspects.

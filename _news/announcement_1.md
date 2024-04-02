@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Thrilled to announce the publication of our latest paper in the SSRN Journal! Read it <a href="https://www.ssrn.com/abstract=4697853">here</a> 📝

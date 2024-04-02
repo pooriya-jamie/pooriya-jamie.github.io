@@ -8,12 +8,8 @@ middle_name:
 last_name: Jamie
 email: Pooriya.Jamie@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🚀 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -71,7 +67,7 @@ github_username: pooriya-jamie
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: https://www.linkedin.com/in/pooriya-jamie/
+linkedin_username: pooriya-jamie
 telegram_username: # your Telegram user name
 scholar_userid: NolFxk8AAAAJ
 semanticscholar_id: # your Semantic Scholar ID
@@ -159,8 +155,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  - name: 
+    rss_url: 
 
 # -----------------------------------------------------------------------------
 # Collections

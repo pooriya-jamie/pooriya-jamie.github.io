@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Pooriya Jamie
     - name: Date of Birth
-      value: 14th March 1879
+      value: 26th May 2003
     - name: Languages
-      value: English, German
+      value: English, Persian
 
 - title: Education
   type: time_table

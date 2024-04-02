@@ -30,10 +30,17 @@
       "studyType": "B.Sc. in Computer Science",
       "startDate": "Sep 2021",
       "score": "18.5/20",
-      "courses": ["Data Mining", "Linear Optimization", "Data Structures and Algorithms", "Design & Analysis of Algorithms", "Artificial Intelligence and Workshop", "Image Processing", "Neural Networks and Introduction to Deep Learning"]
+      "courses": [
+        "Data Mining",
+        "Linear Optimization",
+        "Data Structures and Algorithms",
+        "Design & Analysis of Algorithms",
+        "Artificial Intelligence and Workshop",
+        "Image Processing",
+        "Neural Networks and Introduction to Deep Learning"
+      ]
     }
   ],
-
   "publications": [
     {
       "authors": ["Chauhan, Anishka", "Mayur, Pratham", "Gokarakonda, Yeshwanth Sai", "Jamie, Pooriya", "Mehrotra, Naman"],
@@ -44,7 +51,6 @@
       "doi": "http://dx.doi.org/10.2139/ssrn.4697853"
     }
   ],
-
   "research_experience": [
     {
       "institution": "Amirkabir University of Technology (Tehran Polytechnic)",
@@ -74,11 +80,10 @@
       "description": "Collaborated on a team to develop a robust platform for forecasting long-term financial trends in the Indian market using diverse machine learning techniques. Played a key role in enhancing the platform's machine learning infrastructure, focusing on tasks like data preprocessing, algorithm selection, and model training. Led the literature review section of the paper, analyzing existing research and summarizing machine learning aspects."
     }
   ],
-
   "teaching_experience": [
     {
       "course": "Data Structures and Algorithms Head",
-      "institutions": ["Tehran Polytechnic", "Sharif University"],
+      "institution": ["Tehran Polytechnic", "Sharif University"],
       "start_date": "Feb 2024",
       "end_date": "Present",
       "supervisor": "Dr. Sajad Shirali-Shahreza"
@@ -106,7 +111,7 @@
     },
     {
       "course": "Algorithmic Game Theory",
-      "institutions": ["Sharif University of Technology", "TeIAS"],
+      "institution": ["Sharif University of Technology", "TeIAS"],
       "start_date": "Jan 2024",
       "end_date": "Present",
       "supervisor": "Dr. Masoud Seddighin"
@@ -174,8 +179,7 @@
       "end_date": "Jan 2023",
       "supervisor": "Dr. Mohammad Mahdi Bejani"
     }
-  ], 
-
+  ],
   "other_experiences": [
     {
       "role": "Tester and Mentor of Short Courses",
@@ -203,8 +207,7 @@
       "organization": "Tehran Polytechnic",
       "description": "Designed algorithm and mathematical programming questions for a competition with 600+ participants."
     }
-  ], 
-
+  ],
   "research_interests": [
     "Machine learning (including deep learning, reinforcement learning, and unsupervised learning)",
     "Computer Vision and Image Processing",
@@ -217,8 +220,7 @@
     "Graph Machine Learning",
     "Optimization",
     "Security"
-  ], 
-
+  ],
   "skills": [
     "Analytical Problem-solving",
     "Machine Learning Algorithms",
@@ -232,8 +234,7 @@
     "Human-Computer Interaction (HCI)",
     "Communication Skills",
     "Teamwork and Collaboration"
-  ], 
-
+  ],
   "practical_skills": {
     "Machine Learning libraries": ["TensorFlow", "PyTorch", "scikit-learn"],
     "Computer Vision libraries": ["OpenCV"],
@@ -241,8 +242,7 @@
     "Data visualization libraries": ["Matplotlib", "Seaborn"],
     "Deep Learning frameworks": ["Keras"],
     "Programming languages": ["Python", "C", "C++"]
-  }, 
-
+  },
   "certifications": [
     {
       "title": "TASK-ORIENTED BOOTCAMP IN DATA SCIENCE",
@@ -304,8 +304,7 @@
       "provider": "Quera",
       "date": "May 2020"
     }
-  ], 
-
+  ],
   "languages": [
     {
       "language": "Persian",
@@ -316,5 +315,4 @@
       "proficiency": "Professional working proficiency"
     }
   ]
-  
 }

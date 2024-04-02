@@ -5,16 +5,6 @@ basics:
   url: https://pooriya-jamie.github.io/
   summary: |
     Computer Science Enthusiast | Proficient in Machine Learning, Data Science, Algorithm Theory, and HCI
-  location:
-    address: No. 350, Hafez Ave, Valiasr Square
-    postalCode: 159163-4311
-    city: Tehran
-    countryCode: IR
-    region: Iran
-  profiles:
-    - network: LinkedIn
-      username: Pooriya-Jamie
-      url: https://www.linkedin.com/in/pooriya-jamie/
 education:
   - institution: Amirkabir University of Technology (Tehran Polytechnic)
     location: Tehran, Iran

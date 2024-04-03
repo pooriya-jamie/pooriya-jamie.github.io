@@ -81,92 +81,75 @@
   type: time_table
   contents:
     - title: Data Structures and Algorithms Head
-      institutions:
-        - Tehran Polytechnic
+      institutions: Tehran Polytechnic
       start_date: Feb 2024
       end_date: Present
-      supervisor: 
-        - Dr. Sajad Shirali-Shahreza
+      supervisor: Dr. Sajad Shirali-Shahreza
     - title: Numerical Calculations
       institution: Tehran Polytechnic
       start_date: Feb 2024
       end_date: Present
-      supervisor: 
-        - Dr. Mostafa Abbaszadeh
+      supervisor: Dr. Mostafa Abbaszadeh
     - title: Foundation of Numerical Analysis
       institution: Tehran Polytechnic
       start_date: Feb 2024
       end_date: Present
-      supervisor: 
-        - Dr. Mostafa Shamsi
+      supervisor: Dr. Mostafa Shamsi
     - title: Data Structures and Algorithms
       institution: Sharif University of Technology
       start_date: Feb 2024
       end_date: Present
-      supervisors:
-        - Dr. Mohammad Ali Abam
-        - Hussein Kazemi
+      supervisors: Dr. Mohammad Ali Abam
     - title: Algorithmic Game Theory
-      institutions:
-        - Sharif University of Technology
+      institutions: Sharif University of Technology
       start_date: Jan 2024
       end_date: Present
-      supervisor: 
-        - Dr. Masoud Seddighin
+      supervisor: Dr. Masoud Seddighin
     - title: Principles and Techniques in Data Science
       institution: Sharif University of Technology
       start_date: Jan 2024
       end_date: Present
-      supervisor: 
-        - Dr. MohammadAmin Fazli
+      supervisor: Dr. MohammadAmin Fazli
     - title: Data Mining
       institution: Tehran Polytechnic
       start_date: Oct 2023
       end_date: Jan 2024
-      supervisor: 
-        - Dr. Maryam Amirmazlaghani
+      supervisor: Dr. Maryam Amirmazlaghani
     - title: Data Structures and Algorithms Head
       institution: Tehran Polytechnic
       start_date: Oct 2023
       end_date: Jan 2024
-      supervisor: 
-        - Dr. Sajad Shirali-Shahreza
+      supervisor: Dr. Sajad Shirali-Shahreza
     - title: Linear Algebra
       institution: Sharif University of Technology
       start_date: Oct 2023
       end_date: Nov 2023
-      supervisor: 
-        - Dr. Ali Sharifi-Zarchi
+      supervisor: Dr. Ali Sharifi-Zarchi
     - title: Algorithmic creativity and Python programming
       institution: Sharif University of Technology
       start_date: Jul 2023
       end_date: Sep 2023
-      supervisor: 
-        - Dr. Ali Sharifi-Zarchi
+      supervisor: Dr. Ali Sharifi-Zarchi
     - title: Data Structures and Algorithms
       institution: Tehran Polytechnic
       start_date: Feb 2023
       end_date: Jul 2023
-      supervisor: 
-        - Dr. Sajad Shirali-Shahreza
+      supervisor: Dr. Sajad Shirali-Shahreza
     - title: Foundation of Combinatorics
       institution: Tehran Polytechnic
       start_date: Feb 2023
       end_date: Jul 2023
-      supervisor: 
-        - Dr. Zeinab Akhlaghi
+      supervisor: Dr. Zeinab Akhlaghi
     - title: Introduction to Computer and Programming
       institution: Tehran Polytechnic
       start_date: Oct 2022
       end_date: Jan 2023
-      supervisor: 
-        - Dr. Mohammad Akbari
+      supervisor: Dr. Mohammad Akbari
     - title: Advanced Programming & Workshop
       institution: Tehran Polytechnic
       start_date: Sep 2022
       end_date: Jan 2023
-      supervisor: 
-        - Dr. Mohammad Mahdi Bejani
+      supervisor: Dr. Mohammad Mahdi Bejani
 
 - title: Research Interests
   type: list

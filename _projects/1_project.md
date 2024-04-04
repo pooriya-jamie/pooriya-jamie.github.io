@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: ProtoPNet Project
 description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
@@ -8,74 +8,64 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ProtoPNet for Medical Image Classification</title>
+</head>
+<body>
+    <h1>ProtoPNet for Medical Image Classification</h1>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<p>
+    This repository contains code adapted from the ProtoPNet project (<a href="https://github.com/cfchen-duke/ProtoPNet">https://github.com/cfchen-duke/ProtoPNet</a>) for the classification of medical images. The primary dataset used for this adaptation is the MedMNIST dataset (<a href="https://medmnist.com/">https://medmnist.com/</a>), specifically focusing on the PneumoniaMNIST subset.
+</p>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<h2>Overview</h2>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<p>
+    ProtoPNet is a neural network architecture designed for few-shot image classification tasks, which are often encountered in medical imaging scenarios where labeled data is scarce. By adapting ProtoPNet to medical datasets, particularly focusing on pneumonia classification using chest X-ray images, I aim to demonstrate its efficacy in a domain where labeled data is typically limited.
+</p>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<h2>Dataset</h2>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<p>
+    The primary dataset used in this project is the PneumoniaMNIST subset of MedMNIST, which consists of binary-class chest X-ray images labeled as either pneumonia-positive or pneumonia-negative. The dataset comprises the following splits:
+</p>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<ul>
+    <li><strong>Training Set:</strong> 4,708 samples</li>
+    <li><strong>Validation Set:</strong> 524 samples</li>
+    <li><strong>Test Set:</strong> 624 samples</li>
+</ul>
 
-{% raw %}
+<p>
+    For citing the dataset, please refer to the following papers:
+</p>
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+<ul>
+    <li>Jiancheng Yang, Rui Shi, Donglai Wei, Zequan Liu, Lin Zhao, Bilian Ke, Hanspeter Pfister, Bingbing Ni. "MedMNIST v2-A large-scale lightweight benchmark for 2D and 3D biomedical image classification." <em>Scientific Data</em>, 2023.</li>
+    <li>Jiancheng Yang, Rui Shi, Bingbing Ni. "MedMNIST Classification Decathlon: A Lightweight AutoML Benchmark for Medical Image Analysis". <em>IEEE 18th International Symposium on Biomedical Imaging (ISBI)</em>, 2021.</li>
+</ul>
+
+<p>
+    Additionally, supplementary data might have been collected from external sources, which should be properly cited as per their respective licenses and guidelines.
+</p>
+
+<h2>Usage</h2>
+
+<ol>
+    <li><strong>Data Preparation:</strong> Download the PneumoniaMNIST dataset from the MedMNIST website or other authorized sources. Preprocess the data as necessary for training, validation, and testing.</li>
+    <li><strong>Model Training:</strong> Train the ProtoPNet model using the provided code. Adjust hyperparameters and network architecture as needed based on the specific requirements of the medical image classification task.</li>
+    <li><strong>Evaluation:</strong> Evaluate the trained model on the validation and test sets to assess its performance. Utilize appropriate metrics such as accuracy, precision, recall, and F1-score to measure classification performance.</li>
+    <li><strong>Deployment:</strong> Once satisfied with the model's performance, deploy it in relevant medical applications for pneumonia classification tasks. Ensure compliance with regulatory standards and ethical guidelines governing medical AI applications.</li>
+</ol>
+
+<h2>Acknowledgments</h2>
+
+<p>
+    I acknowledge the developers of ProtoPNet for providing the foundational codebase for this project. Additionally, I express our gratitude to the authors of the MedMNIST dataset for curating and releasing a valuable resource for the medical imaging community.
+</p>
+</body>
+</html>
 
 {% endraw %}

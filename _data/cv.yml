@@ -30,20 +30,37 @@
         - Image Processing
         - Neural Networks and Introduction to Deep Learning
 
-- title: Publications
-  type: time_table
-  contents:
-    - title: Indian Stock Market Prediction using Augmented Financial Intelligence ML
-      authors:
+# - title: Publications
+#   type: time_table
+#   contents:
+#     - title: Indian Stock Market Prediction using Augmented Financial Intelligence ML
+#       authors:
+#         - Chauhan, Anishka
+#         - Mayur, Pratham
+#         - Gokarakonda, Yeshwanth Sai
+#         - Jamie, Pooriya
+#         - Mehrotra, Naman
+#       date: January 17, 2024
+#       source: SSRN
+#       url: https://ssrn.com/abstract=4697853
+#       doi: http://dx.doi.org/10.2139/ssrn.4697853
+
+publications:
+  published:
+    - title: "Indian Stock Market Prediction using Augmented Financial Intelligence ML"
+      authors: 
         - Chauhan, Anishka
         - Mayur, Pratham
         - Gokarakonda, Yeshwanth Sai
         - Jamie, Pooriya
         - Mehrotra, Naman
-      date: January 17, 2024
-      source: SSRN
-      url: https://ssrn.com/abstract=4697853
-      doi: http://dx.doi.org/10.2139/ssrn.4697853
+      date: "January 17, 2024"
+      url: "https://ssrn.com/abstract=4697853" 
+  forthcoming:
+    - title: "Music with AI: Contextual Feeling-Based Music Recommender"
+      status: "Manuscript prepared; author list to be finalized."
+    - title: "Using ChatGPT in Data Structure Courses: Teaching Assistant Perspective"
+      status: "Manuscript for submission to The 56th ACM Technical Symposium on Computer Science Education."
 
 - title: Research Experience
   type: time_table

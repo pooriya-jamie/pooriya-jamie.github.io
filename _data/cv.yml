@@ -45,7 +45,7 @@
 #       url: https://ssrn.com/abstract=4697853
 #       doi: http://dx.doi.org/10.2139/ssrn.4697853
 
-publications:
+- publications:
   published:
     - title: "Indian Stock Market Prediction using Augmented Financial Intelligence ML"
       authors: 

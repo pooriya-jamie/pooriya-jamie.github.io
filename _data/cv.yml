@@ -160,7 +160,9 @@
     - Data mining and Data Science Applications
     - Human-computer interaction (HCI) and Human-AI interaction
     - Educational Data Mining
-    # Add other research interests similarly...
+    - LLMs in Education
+    - Learning Analytics
+    - student modeling
 
 - title: Skills
   type: list
@@ -174,25 +176,39 @@
     - Quantitative Data Analysis
     - Statistical Modeling
     - Security and Cryptography
+    - Web Development
     - Human-Computer Interaction (HCI)
     - Communication Skills
     - Teamwork and Collaboration
     # Add other skills similarly...
 
+
 - title: Practical Skills
   type: map
   contents:
     - name: Machine Learning libraries
-      value: [TensorFlow, PyTorch, scikit-learn]
+      value:
+        - TensorFlow
+        - PyTorch
+        - scikit-learn
     - name: Computer Vision libraries
-      value: [OpenCV]
+      value:
+        - OpenCV
     - name: Data manipulation and analysis libraries
-      value: [NumPy, Pandas]
+      value:
+        - NumPy
+        - Pandas
     - name: Data visualization libraries
-      value: [Matplotlib, Seaborn]
+      value:
+        - Matplotlib
+        - Seaborn
     - name: Deep Learning frameworks
-      value: [Keras]
+      value:
+        - Keras
     - name: Programming languages
-      value: [Python, C, C++]
+      value:
+        - Python
+        - C
+        - C++
 
 

@@ -189,30 +189,30 @@
 #       value: [Python, C, C++]
 
 
-- title: Practical Skills
-  type: map
-  contents:
-    - name: Machine Learning libraries
-      value:
-        - TensorFlow
-        - PyTorch
-        - scikit-learn
-    - name: Computer Vision libraries
-      value:
-        - OpenCV
-    - name: Data manipulation and analysis libraries
-      value:
-        - NumPy
-        - Pandas
-    - name: Data visualization libraries
-      value:
-        - Matplotlib
-        - Seaborn
-    - name: Deep Learning frameworks
-      value:
-        - Keras
-    - name: Programming languages
-      value:
-        - Python
-        - C
-        - C++
+# - title: Practical Skills
+#   type: map
+#   contents:
+#     - name: Machine Learning libraries
+#       value:
+#         - TensorFlow
+#         - PyTorch
+#         - scikit-learn
+#     - name: Computer Vision libraries
+#       value:
+#         - OpenCV
+#     - name: Data manipulation and analysis libraries
+#       value:
+#         - NumPy
+#         - Pandas
+#     - name: Data visualization libraries
+#       value:
+#         - Matplotlib
+#         - Seaborn
+#     - name: Deep Learning frameworks
+#       value:
+#         - Keras
+#     - name: Programming languages
+#       value:
+#         - Python
+#         - C
+#         - C++

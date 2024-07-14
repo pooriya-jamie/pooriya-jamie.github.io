@@ -48,6 +48,16 @@
 - title: Research Experience
   type: time_table
   contents:
+    - title: Research Intern
+      institution: University of Twente
+      start_date: Jul 2023
+      end_date: Present
+      project_title:  AI-assisted assignment assessment system
+      supervisors:
+        - Dr. Mohammadreza Farrokhnia
+      description: |
+        Focused on developing an AI-assisted assignment assessment system. Utilized generative AI, specifically ChatGPT, to provide constructive feedback to students. Aimed to identify and improve areas in student assignments based on AI feedback.
+
     - title: Research Assistant
       institution: Amirkabir University of Technology (Tehran Polytechnic)
       start_date: Feb 2023

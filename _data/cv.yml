@@ -52,7 +52,7 @@
       institution: University of Twente
       start_date: Jul 2023
       end_date: Present
-      project_title:  AI-assisted assignment assessment system
+      project_title: AI-assisted assignment assessment system
       supervisors:
         - Dr. Mohammadreza Farrokhnia
       description: |
@@ -68,6 +68,7 @@
         - Behnam Yousefimehr
       description: |
         Exploring various deep learning architectures, such as CNNs, RNNs, and GANs, to handle imbalanced datasets in fraud detection tasks. Currently working as an RA in the NORC Lab.
+
     - title: Researcher in Human-Computer Interaction (HCI)
       institution: Tehran Institute for Advanced Studies (TeIAS)
       start_date: Oct 2023
@@ -77,6 +78,7 @@
         - Dr. Sharareh Alipour
       description: |
         Exploring the future potential of ChatGPT in research and teaching domains, analyzing its influence on individuals' lives and the transformation of practices in these fields. Conducting comprehensive studies, including surveys, interviews, and experiments, to understand how ChatGPT is adopted and utilized by researchers and educators.
+
     - title: Remote Internship
       institution: University College London (UCL)
       start_date: Jan 2023

@@ -52,11 +52,11 @@
       institution: University of Twente
       start_date: Jul 2023
       end_date: Present
-      project_title: AI-assisted assignment assessment system
+      project_title: AI-assisted Assignment Assessment System
       supervisors:
         - Dr. Mohammadreza Farrokhnia
       description: |
-        Focused on developing an AI-assisted assignment assessment system. Utilized generative AI, specifically ChatGPT, to provide constructive feedback to students. Aimed to identify and improve areas in student assignments based on AI feedback.
+        Focused on developing an AI-assisted assignment assessment system that measures how much feedback has been applied in the final assignment. Utilized generative AI, specifically ChatGPT, to provide constructive feedback to students and improve areas in their assignments.
 
     - title: Research Assistant
       institution: Amirkabir University of Technology (Tehran Polytechnic)
@@ -69,17 +69,27 @@
       description: |
         Exploring various deep learning architectures, such as CNNs, RNNs, and GANs, to handle imbalanced datasets in fraud detection tasks. Currently working as an RA in the NORC Lab.
 
-    - title: Researcher in Human-Computer Interaction (HCI)
+    - title: Research Assistant
       institution: Tehran Institute for Advanced Studies (TeIAS)
       start_date: Oct 2023
-      end_date: Present
+      end_date: Jul 2024
       project_title: ChatGPT's Impact on Education
       supervisors:
         - Dr. Sharareh Alipour
       description: |
-        Exploring the future potential of ChatGPT in research and teaching domains, analyzing its influence on individuals' lives and the transformation of practices in these fields. Conducting comprehensive studies, including surveys, interviews, and experiments, to understand how ChatGPT is adopted and utilized by researchers and educators.
+        Analyzed the potential of ChatGPT in research and teaching domains, focusing on its influence on educational practices. Conducted studies, including surveys and interviews, to understand ChatGPT's adoption and utilization by educators.
 
-    - title: Remote Internship
+    - title: Research Assistant
+      institution: University College London (UCL)
+      start_date: Dec 2023
+      end_date: Apr 2024
+      project_title: Emotion-aware Musical Recommendation System
+      supervisors:
+        - Prof. Philip Treleaven
+      description: |
+        Developed a novel music recommendation system using contextual analysis of song lyrics. Focused on extracting sentiment-rich summaries from song lyrics using a combination of unsupervised and supervised techniques, including Text-Ranking, Bert-Extractive-Summarizer, and GPT-3.5 insights.
+
+    - title: Research Intern
       institution: University College London (UCL)
       start_date: Jan 2023
       end_date: Dec 2023
@@ -87,7 +97,7 @@
       supervisors:
         - Prof. Philip Treleaven
       description: |
-        Collaborated on a team to develop a robust platform for forecasting long-term financial trends in the Indian market using diverse machine learning techniques. Played a key role in enhancing the platform's machine learning infrastructure, focusing on tasks like data preprocessing, algorithm selection, and model training. Led the literature review section of the paper, analyzing existing research and summarizing machine learning aspects.
+        Enhanced machine learning infrastructure and led literature review. Developed a platform for forecasting financial trends in the Indian market using machine learning techniques.
 
 - title: Teaching Experience
   type: time_table

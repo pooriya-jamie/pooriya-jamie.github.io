@@ -34,16 +34,9 @@
   type: time_table
   contents:
     - title: Indian Stock Market Prediction using Augmented Financial Intelligence ML
-      authors:
-        - Chauhan, Anishka
-        - Mayur, Pratham
-        - Gokarakonda, Yeshwanth Sai
-        - Jamie, Pooriya
-        - Mehrotra, Naman
-      date: January 17, 2024
-      source: SSRN
-      url: https://ssrn.com/abstract=4697853
-      doi: http://dx.doi.org/10.2139/ssrn.4697853
+    - title: Utilizing ChatGPT in a Data Structures and Algorithms Course A Teaching Assistant’s Perspective
+    - title: Emotion-aware Musical Recommendation System using Contextual Analysis
+
 
 - title: Research Experience
   type: time_table
@@ -176,10 +169,11 @@
 - title: Research Interests
   type: list
   contents:
-    - Machine learning (including deep learning, reinforcement learning, and unsupervised learning)
+    - AI in Education
+    - Data mining and Data Science Applications in Social Good
+    - Machine learning 
     - Computer Vision and Image Processing
     - Artificial Intelligence
-    - Data mining and Data Science Applications
     - Human-computer interaction (HCI) and Human-AI interaction
     - Educational Data Mining
     - LLMs in Education

@@ -227,10 +227,11 @@
         - C++
 
 - title: Languages
-  type: list
+  type: time_table
   contents:
-    - name: English
-      proficiency: TOEFL Score 97 (Reading: 22, Listening: 28, Speaking: 23, Writing: 24)
-    - name: Persian (Farsi)
-      proficiency: Native
-    # Add other languages similarly if needed...
+  - title: English
+      description: |
+        TOEFL Score 97 (Reading: 22, Listening: 28, Speaking: 23, Writing: 24)
+  - title: Persian (Farsi)
+      description: |
+        Native

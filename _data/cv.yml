@@ -225,3 +225,12 @@
         - Python
         - C
         - C++
+
+- title: Languages
+  type: list
+  contents:
+    - name: English
+      proficiency: TOEFL Score 97 (Reading: 22, Listening: 28, Speaking: 23, Writing: 24)
+    - name: Persian (Farsi)
+      proficiency: Native
+    # Add other languages similarly if needed...

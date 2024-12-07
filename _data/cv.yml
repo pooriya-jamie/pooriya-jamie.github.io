@@ -175,6 +175,8 @@
     - Computer Vision and Image Processing
     - Artificial Intelligence
     - Human-computer interaction (HCI) and Human-AI interaction
+    - Designing intelligent systems
+    - Visualizing information
     - Educational Data Mining
     - LLMs in Education
     - Learning Analytics
@@ -191,7 +193,6 @@
     - Feature Extraction and Image Recognition
     - Quantitative Data Analysis
     - Statistical Modeling
-    - Security and Cryptography
     - Web Development
     - Human-Computer Interaction (HCI)
     - Communication Skills
@@ -203,25 +204,30 @@
   contents:
     - name: Machine Learning libraries
       value:
-        - TensorFlow
-        - PyTorch
+        - TensorFlow, 
+        - PyTorch, 
         - scikit-learn
     - name: Computer Vision libraries
       value:
         - OpenCV
     - name: Data manipulation and analysis libraries
       value:
-        - NumPy
+        - NumPy, 
         - Pandas
     - name: Data visualization libraries
       value:
-        - Matplotlib
+        - Matplotlib, 
         - Seaborn
     - name: Deep Learning frameworks
       value:
         - Keras
     - name: Programming languages
       value:
-        - Python
-        - C
+        - Python, 
+        - C, 
         - C++
+    - name: Web Development
+      value:
+        - HTML,  
+        - CSS, 
+        - JavaScript

@@ -6,7 +6,7 @@ subtitle: Computer science student at <a href='https://aut.ac.ir/'>Tehran Polyte
 
 profile:
   align: right
-  image: pic2.JPG
+  image: Pic.jpg
   image_circular: True # crops the image to make it circular
   more_info: >
     <p>Tehran, Iran</p>

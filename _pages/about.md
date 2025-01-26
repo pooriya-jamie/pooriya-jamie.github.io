@@ -7,9 +7,8 @@ subtitle: Computer science student at <a href='https://aut.ac.ir/'>Tehran Polyte
 profile:
   align: right
   image: main.jpg
-  image_circular: True # crops the image to make it circular
+  image_circular: False # crops the image to make it circular
   more_info: >
-    <p>Tehran, Iran</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

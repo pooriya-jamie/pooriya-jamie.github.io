@@ -4,7 +4,7 @@ inline: false
 group: Bachelor's Students
 group_rank: 3
 group_order: 1
-external: false
+external: True
 
 title: Sean Rosskopf
 description: Profile of Sean Rosskopf.

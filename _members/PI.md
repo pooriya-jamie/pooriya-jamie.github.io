@@ -1,10 +1,10 @@
 ---
 layout: about
 inline: false
-group: Faculty
-group_rank: 1
-group_order: 4
-external: true
+group: Graduate Students
+group_rank: 2
+group_order: 1
+external: False
 
 title: Pooriya Jamie
 description: Profile of Pooriya Jamie.

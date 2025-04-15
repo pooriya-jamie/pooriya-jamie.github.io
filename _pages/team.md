@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /team.html
-title: team
+title: OASIS Lab
 page-title: Team
-description: This is a Test 
+description: Online and AI Systems’ Integrity & Safety
 nav: true
 nav_order: 2
 nav_rank: 2

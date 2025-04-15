@@ -170,6 +170,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  members:
+    output: true
+    permalink: /members/:path
 
 announcements:
   enabled: true

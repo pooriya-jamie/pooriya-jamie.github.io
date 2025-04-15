@@ -19,7 +19,7 @@ profile:
     name: Xiaotong (Riley) Xi
     position: B.S. in Economics and Communications
     align: right
-    image: Xi.jpeg
+    image: Xi.jpg
     role: Undergraduate Student
     orcid: 
     website: 

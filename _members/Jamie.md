@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: Graduate Students
+group: PhD Student
 group_rank: 2
 group_order: 1
 external: False
@@ -30,4 +30,4 @@ I am a PhD student
 
 ## Short Bio
 
-I received my B.S. degree in Bioengineering from AUT. I started pursuing my doctoral degree.
+I received my B.S. degree in CS from AUT. I started pursuing my doctoral degree.

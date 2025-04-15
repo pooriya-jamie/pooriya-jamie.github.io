@@ -3,7 +3,7 @@ layout: about
 inline: false
 group: Bachelor's Students
 group_rank: 3
-group_order: 1
+group_order: 2
 external: True
 
 title: Olivia Nguyen

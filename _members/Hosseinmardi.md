@@ -20,7 +20,7 @@ profile:
     align: right
     image: Hosseinmardi.jpg
     role: research faculty
-    email: test@gmail.com
+    email: homahm@ucla.edu
     website: https://homahm.github.io/
     github: 
     orcid: 

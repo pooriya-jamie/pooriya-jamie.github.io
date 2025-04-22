@@ -20,7 +20,7 @@ profile:
     align: right
     image: Ghasemian.jpg
     role: research faculty
-    email: test@gmail.com
+    email: amir.ghasemian@yale.edu
     website: https://aghasemian.github.io/
     github: 
     orcid: 

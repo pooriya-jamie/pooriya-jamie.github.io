@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: Faculty
+group: Academic
 group_rank: 1
 group_order: 1
 external: True

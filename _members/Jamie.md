@@ -12,8 +12,8 @@ lastname: Jamie
 publications: 'author^=*Jamie'
 
 teaser: >
-    I'm Pooriya Jamie, an incoming PhD student in Computational Communication and Data Science at UCLA. My research focuses on using data science and machine learning to enhance cyber safety, social computing, and address algorithmic bias for safer digital spaces.
-
+    I'm Pooriya Jamie, an incoming PhD student in Computational Communication and Data Science at UCLA. I focus on using data science and machine learning to improve cyber safety, social computing, and address algorithmic bias.
+    
 profile:
     name: Pooriya Jamie
     position: Doctoral Student    

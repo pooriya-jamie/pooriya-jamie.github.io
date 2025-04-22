@@ -12,7 +12,7 @@ lastname: Rosskopf
 publications: 'author^=*Rosskopf'
 
 teaser: >
-    Sean Rosskopf is a junior undergraduate student studying political science at UCLA
+    I'm Sean Rosskopf, a junior undergraduate student studying political science at UCLA.
 
 profile:
     name: Sean Rosskopf
@@ -22,7 +22,7 @@ profile:
     role: Undergraduate Student
     orcid: 
     website: 
-    email: Test@ucla.edu
+    email: seanrosskopf@g.ucla.edu
     github: 
     # address: >
 ---

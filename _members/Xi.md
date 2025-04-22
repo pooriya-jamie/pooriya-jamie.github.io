@@ -23,7 +23,7 @@ profile:
     role: Undergraduate Student
     orcid: 
     website: 
-    email: Test@ucla.edu
+    email: xiaotong95@g.ucla.edu
     github: 
     # address: >
 ---

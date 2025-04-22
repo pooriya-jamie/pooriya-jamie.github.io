@@ -5,7 +5,6 @@ group: Academic
 group_rank: 1
 group_order: 2
 external: True
-academic: true
 
 title: Amir Ghasemian
 description: Profile of Amir Ghasemian.
@@ -17,7 +16,7 @@ teaser: >
 
 profile:
     name: Amir Ghasemian
-    position: research faculty   
+    position: Research Faculty   
     align: right
     image: Ghasemian.jpg
     role: research faculty

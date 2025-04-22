@@ -3,7 +3,7 @@ layout: about
 inline: false
 group: Research Assistances
 group_rank: 3
-group_order: 4
+group_order: 5
 external: True
 
 title: Serena Chen

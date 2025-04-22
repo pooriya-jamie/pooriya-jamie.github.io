@@ -5,7 +5,6 @@ group: Academic
 group_rank: 1
 group_order: 1
 external: True
-academic: true
 
 title: Homa Hosseinmardi
 description: Profile of Homa Hosseinmardi.
@@ -17,7 +16,7 @@ teaser: >
 
 profile:
     name: Homa Hosseinmardi
-    position: research faculty   
+    position: Research Faculty   
     align: right
     image: Hosseinmardi.jpg
     role: research faculty

@@ -22,7 +22,7 @@ profile:
     role: Undergraduate Student
     orcid: 
     website: 
-    email: Test@ucla.edu
+    email: nnguyen697@ucla.edu
     github: 
     # address: >
 ---

@@ -12,7 +12,7 @@ lastname: Jamie
 publications: 'author^=*Jamie'
 
 teaser: >
-    I am a PhD student.
+    I'm Pooriya Jamie, an incoming PhD student in Computational Communication and Data Science at UCLA (Fall 2025). My research explores cyber safety, social computing, and algorithmic bias — using large-scale data, machine learning, and network analysis to understand and address online harms and the societal impact of digital platforms. I'm passionate about building safer, fairer, and more inclusive digital spaces.
 
 profile:
     name: Pooriya Jamie
@@ -25,8 +25,6 @@ profile:
     github: https://github.com/pooriya-jamie
     orcid: https://orcid.org/0009-0008-5750-111X
 ---
-
-I am a PhD student
 
 ## Short Bio
 

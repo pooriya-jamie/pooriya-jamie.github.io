@@ -18,7 +18,7 @@ profile:
     name: Upasana Dutta
     position: Doctoral Student (UPenn)  
     align: right
-    image: blank.webp
+    image: Dutta.jpg
     role: Doctoral Researcher
     email: upasanad@seas.upenn.edu
     website: https://upasanadutta.owlstown.net/

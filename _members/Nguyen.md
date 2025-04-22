@@ -12,7 +12,7 @@ lastname: Nguyen
 publications: 'author^=*Nguyen'
 
 teaser: >
-    My name is Olivia Nguyen, and I'm a third year at UCLA, pursuing a B.S. degree in Statistics and Data Science. I'm excited to work with Professor Hosseinmardi to find the intersection between data science and social science, specifically in the context of social media!
+    My name is Olivia Nguyen, and I'm a third year at UCLA, pursuing a B.S. degree in Statistics and Data Science. I explore the intersection between data science and social science, specifically in the context of social media!
 
 profile:
     name: Olivia Nguyen

@@ -22,7 +22,7 @@ profile:
     role: Doctoral Researcher
     email: upasanad@seas.upenn.edu
     website: https://upasanadutta.owlstown.net/
-    github: https://github.com/UpasanaDutta98
+    github: UpasanaDutta98
     orcid: 
     # address: >
 ---

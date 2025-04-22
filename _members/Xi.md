@@ -13,7 +13,6 @@ publications: 'author^=*Xi'
 
 teaser: >
     I'm Xiaotong, and I am currently a junior double majoring in economics and communications at UCLA.
-    Please let me know if you need any other information! Keep in touch:)
 
 profile:
     name: Xiaotong (Riley) Xi

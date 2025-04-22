@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: PhD Student
+group: PhD Students
 group_rank: 2
 group_order: 2
 external: True
@@ -23,7 +23,7 @@ profile:
     email: test@gmail.com
     github: 
     orcid: 
-    address: >
+    # address: >
 ---
 
 I am a PhD student

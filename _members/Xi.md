@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: Bachelor's Students
+group: Research Assistances
 group_rank: 3
 group_order: 3
 external: True
@@ -25,7 +25,7 @@ profile:
     website: 
     email: Test@ucla.edu
     github: 
-    address: >
+    # address: >
 ---
 
 ## Short Bio

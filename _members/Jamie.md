@@ -1,10 +1,10 @@
 ---
 layout: about
 inline: false
-group: PhD Student
+group: PhD Students
 group_rank: 2
 group_order: 1
-external: False
+external: True
 
 title: Pooriya Jamie
 description: Profile of Pooriya Jamie.
@@ -23,7 +23,7 @@ profile:
     email: Pooriya.Jamie@gmail.com
     github: 
     orcid: 
-    address: >
+    # address: >
 ---
 
 I am a PhD student

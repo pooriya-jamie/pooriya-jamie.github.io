@@ -170,9 +170,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  members:
-    output: true
-    permalink: /members/:path
+  # members:
+  #   output: true
+  #   permalink: /members/:path
 
 announcements:
   enabled: true
@@ -286,8 +286,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Jamie]
+  first_name: [Pooriya]
 
   style: apa
   locale: en

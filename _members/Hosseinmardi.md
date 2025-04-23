@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: Academic
+group: Academics
 group_rank: 1
 group_order: 1
 external: True
@@ -16,7 +16,7 @@ teaser: >
 
 profile:
     name: Homa Hosseinmardi
-    position: Research Faculty   
+    position: 
     align: right
     image: Hosseinmardi.jpg
     role: research faculty

@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: Academic
+group: Academics
 group_rank: 1
 group_order: 2
 external: True
@@ -16,7 +16,7 @@ teaser: >
 
 profile:
     name: Amir Ghasemian
-    position: Research Faculty   
+    position: 
     align: right
     image: Ghasemian.jpg
     role: research faculty

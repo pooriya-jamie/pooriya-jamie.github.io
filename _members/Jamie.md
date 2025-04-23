@@ -9,21 +9,21 @@ external: True
 title: Pooriya Jamie
 description: Profile of Pooriya Jamie.
 lastname: Jamie
-publications: 'author^=*Jamie'
+publications: "author^=*Jamie"
 
 teaser: >
-    I'm Pooriya Jamie, an incoming Ph.D. student in Computational Communication and Data Science at UCLA. I focus on using data science and machine learning to improve cyber safety, social computing, and address algorithmic bias.
+  I'm Pooriya Jamie, an incoming Ph.D. student in Computational Communication and Data Science at UCLA. I focus on using data science and machine learning to improve cyber safety, social computing, and address algorithmic bias.
 
 profile:
-    name: Pooriya Jamie
-    position: Doctoral Student    
-    align: right
-    image: Jamie.jpg
-    role: Doctoral Researcher
-    email: Pooriya.Jamie@gmail.com
-    website: https://pooriya-jamie.github.io/
-    github: pooriya-jamie
-    orcid: 0009-0008-5750-111X
+  name: Pooriya Jamie
+  position: Doctoral Student
+  align: right
+  image: Jamie.jpg
+  role: Doctoral Researcher
+  email: Pooriya.Jamie@gmail.com
+  website: https://pooriya-jamie.github.io/
+  github: pooriya-jamie
+  orcid: 0009-0008-5750-111X
 ---
 
 ## Short Bio

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I’m thrilled to announce the release of the pre-print of my latest research paper: "Utilizing ChatGPT in a Data Structures and Algorithms Course: A Teaching Assistant's Perspective." Read it <a href="https://arxiv.org/abs/2410.08899">here</a> 
+I’m thrilled to announce the release of the pre-print of my latest research paper: "Utilizing ChatGPT in a Data Structures and Algorithms Course: A Teaching Assistant's Perspective." Read it <a href="https://arxiv.org/abs/2410.08899">here</a>

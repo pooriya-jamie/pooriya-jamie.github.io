@@ -19,6 +19,6 @@ Hello there! 👋 I’m Pooriya Jamie, a final year computer science student pas
 
 I have worked extensively on research projects exploring AI's transformative potential in education. These include developing AI-assisted assessment systems to analyze how students integrate feedback, studying the impact of ChatGPT on problem-solving in computing courses, and creating adaptive educational tools for personalized learning experiences. My research interests lie at the intersection of HCI, Data Science for Social Good, and enhancing education through innovative technologies.
 
-Proficient in machine learning, I thrive on solving complex problems and leveraging cutting-edge AI techniques to develop practical solutions. 
+Proficient in machine learning, I thrive on solving complex problems and leveraging cutting-edge AI techniques to develop practical solutions.
 
 If you’re interested in collaborating on research or educational projects, let’s connect and explore how we can make a positive impact together!

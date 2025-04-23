@@ -9,20 +9,20 @@ external: True
 title: Sean Rosskopf
 description: Profile of Sean Rosskopf.
 lastname: Rosskopf
-publications: 'author^=*Rosskopf'
+publications: "author^=*Rosskopf"
 
 teaser: >
-    I'm Sean Rosskopf, a junior undergraduate student studying political science at UCLA.
+  I'm Sean Rosskopf, a junior undergraduate student studying political science at UCLA.
 
 profile:
-    name: Sean Rosskopf
-    position: B.A. in Political Science
-    align: right
-    image: Rosskopf.jpg
-    role: Undergraduate Student
-    orcid: 
-    website: 
-    email: seanrosskopf@g.ucla.edu
-    github: 
-    # address: >
+  name: Sean Rosskopf
+  position: B.A. in Political Science
+  align: right
+  image: Rosskopf.jpg
+  role: Undergraduate Student
+  orcid:
+  website:
+  email: seanrosskopf@g.ucla.edu
+  github:
+  # address: >
 ---

@@ -21,4 +21,4 @@ I have worked extensively on research projects exploring AI's transformative pot
 
 Proficient in machine learning, I thrive on solving complex problems and leveraging cutting-edge AI techniques to develop practical solutions.
 
-If you’re interested in collaborating on research or educational projects, let’s connect and explore how we can make a positive impact together! 🚀
+If you’re interested in collaborating on research or educational projects, let’s connect and explore how we can make a positive impact together! 

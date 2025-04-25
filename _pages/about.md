@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello there! 👋 I’m Pooriya Jamie, a final year computer science student passionate about data science, human-computer interaction (HCI), and computer science education (CSE). My academic journey has been fueled by a desire to bridge educational gaps and improve accessibility and equity.
+Hello there! 👋 I’m Pooriya Jamie, a final year computer science student passionate about data science, human-computer interaction (HCI), and computer science education. My academic journey has been fueled by a desire to bridge educational gaps and improve accessibility and equity.
 
 I have worked extensively on research projects exploring AI's transformative potential in education. These include developing AI-assisted assessment systems to analyze how students integrate feedback, studying the impact of ChatGPT on problem-solving in computing courses, and creating adaptive educational tools for personalized learning experiences. My research interests lie at the intersection of HCI, Data Science for Social Good, and enhancing education through innovative technologies.
 

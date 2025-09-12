@@ -8,11 +8,19 @@
     - name: Website
       value: https://pooriya-jamie.github.io/
     - name: Location
-      value: Tehran, Iran
+      value: Los Angeles, CA, USA
 
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D. in Communication
+      institution: University of California, Los Angeles (UCLA)
+      location: Los Angeles, CA, USA
+      url: https://www.ucla.edu/
+      area: Data Science, Human-Computer Interaction, LLMs
+      studyType: Doctoral Degree
+      startDate: Sep 2025
+  
     - title: B.Sc. in Computer Science
       institution: Amirkabir University of Technology (Tehran Polytechnic)
       location: Tehran, Iran

@@ -2,23 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer science student at <a href='https://aut.ac.ir/'>Tehran Polytechnic</a>.
+subtitle: PhD student in Communication at <a href='https://www.ucla.edu/'>University of California, Los Angeles (UCLA)</a>.
 
 profile:
   align: right
   image: main.jpg
-  image_circular: False # crops the image to make it circular
+  image_circular: True
   more_info: >
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: true
+selected_papers: true
+social: true
 ---
 
-Hello there! 👋 I’m Pooriya Jamie, a final year computer science student passionate about data science, human-computer interaction (HCI), and computer science education. My academic journey has been fueled by a desire to bridge educational gaps and improve accessibility and equity.
+Hello, I’m Pooriya Jamie, a first-year PhD student in Communication at the University of California, Los Angeles (UCLA), advised by <a href="https://homahm.github.io/">Prof. Homa Hosseinmardi</a>. My research examines how algorithmic curation shapes social media experiences and influences user well-being, at the intersection of human-computer interaction, data science, and socio-technical systems.  
 
-I have worked extensively on research projects exploring AI's transformative potential in education. These include developing AI-assisted assessment systems to analyze how students integrate feedback, studying the impact of ChatGPT on problem-solving in computing courses, and creating adaptive educational tools for personalized learning experiences. My research interests lie at the intersection of HCI, Data Science for Social Good, and enhancing education through innovative technologies.
+Previously, I explored AI’s transformative potential in education, including developing AI-assisted tools to analyze student learning behaviors, studying the effects of large language models on problem-solving, and designing adaptive systems for personalized learning. These experiences shaped my broader interest in leveraging computational and human-centered methods to understand and improve experiences in digital environments.  
 
-Proficient in machine learning, I thrive on solving complex problems and leveraging cutting-edge AI techniques to develop practical solutions.
-
-If you’re interested in collaborating on research or educational projects, let’s connect and explore how we can make a positive impact together! 
+I am particularly interested in projects at the intersection of AI, communication, and human-centered technology, and I welcome collaborations that investigate the social and behavioral impacts of digital systems.

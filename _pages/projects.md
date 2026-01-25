@@ -49,3 +49,5 @@ nav_order: 3
   </div>
 
 </div>
+
+<!-- Style: vibrant flat vector illustration, high contrast, bold color palette (teal, orange, purple, yellow), thick clean outlines, minimal text, large simple shapes, no gradients, no photorealism, no brand logos, white or very light background, designed to be readable as a small thumbnail. -->

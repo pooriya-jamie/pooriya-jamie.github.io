@@ -7,8 +7,7 @@ first_name: Pooriya
 middle_name:
 last_name: Jamie
 email: Pjamie@ucla.edu
-description: PhD student at UCLA. Research: human-centered AI, platform audits, and AI-assisted learning systems.
-# the ">" symbol means to ignore newlines until "footer_text:"
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
 keywords: academic-website, portfolio-website, Education, personal-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

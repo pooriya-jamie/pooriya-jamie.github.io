@@ -66,20 +66,20 @@
   contents:
     - title: Tehran Polytechnic
       items:
-        - Data Structures and Algorithms (Head TA), Oct 2023 - Present
-        - Data Mining, Oct 2023 - Jan 2024
-        - Foundation of Numerical Analysis, Feb 2024 - Present
-        - Numerical Calculations, Feb 2024 - Present
-        - Foundation of Combinatorics, Feb 2023 - Jul 2023
-        - Introduction to Computer and Programming, Oct 2022 - Jan 2023
-        - Advanced Programming and Workshop, Sep 2022 - Jan 2023
+        - Data Structures and Algorithms (Head TA)
+        - Data Mining
+        - Foundation of Numerical Analysis
+        - Numerical Calculations
+        - Foundation of Combinatorics
+        - Introduction to Computer and Programming
+        - Advanced Programming and Workshop
     - title: Sharif University of Technology
       items:
-        - Data Structures and Algorithms, Feb 2024 - Present
-        - Algorithmic Game Theory, Jan 2024 - Present
-        - Principles and Techniques in Data Science, Jan 2024 - Present
-        - Linear Algebra, Oct 2023 - Nov 2023
-        - Algorithmic Creativity and Python Programming, Jul 2023 - Sep 2023
+        - Data Structures and Algorithms
+        - Algorithmic Game Theory
+        - Principles and Techniques in Data Science
+        - Linear Algebra
+        - Algorithmic Creativity and Python Programming
 
 - title: Research Interests
   type: list
@@ -96,14 +96,14 @@
   contents:
     - name: Machine learning
       value:
-        - PyTorch
-        - TensorFlow
+        - PyTorch,
+        - TensorFlow,
         - scikit-learn
     - name: Data and visualization
       value:
-        - NumPy
-        - Pandas
-        - Matplotlib
+        - NumPy,
+        - Pandas,
+        - Matplotlib,
         - Seaborn
     - name: Deep learning
       value:
@@ -113,11 +113,11 @@
         - OpenCV
     - name: Programming
       value:
-        - Python
-        - C
+        - Python,
+        - C,
         - C++
     - name: Web
       value:
-        - HTML
-        - CSS
+        - HTML,
+        - CSS,
         - JavaScript

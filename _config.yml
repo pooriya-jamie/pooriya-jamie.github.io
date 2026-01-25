@@ -6,16 +6,17 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Pooriya
 middle_name:
 last_name: Jamie
-email: Pooriya.Jamie@gmail.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+email: Pjamie@ucla.edu
+description: PhD student at UCLA. Research: human-centered AI, platform audits, and AI-assisted learning systems.
+# the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
 keywords: academic-website, portfolio-website, Education, personal-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🚀 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://pooriya-jamie.github.io/ # the base hostname & protocol for your site
+url: "https://pooriya-jamie.github.io"   # drop trailing slash for cleaner canonicals
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -26,7 +27,7 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -55,8 +56,8 @@ max_width: 800px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
@@ -70,7 +71,7 @@ mastodon_username: # your mastodon instance+username in the format instance.tld/
 linkedin_username: pooriyajamie
 telegram_username: # your Telegram user name
 scholar_userid: NolFxk8AAAAJ
-semanticscholar_id: 2283999017
+semanticscholar_id: 
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0009-0008-5750-111X
 medium_username: # your Medium username

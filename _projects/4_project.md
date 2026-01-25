@@ -13,7 +13,7 @@ theme: sociotech
 ### Why this project
 Auditing recommender systems in safety-critical domains is hard for a simple reason: you often need to **express audit intent** (seek, avoid, stop) while also respecting **exposure constraints**. Scripted bots scale, but they are typically open-loop and cannot condition behavior on what is actually on screen. This project introduces a framework for **dynamic audits under exposure constraints**, where intent is explicitly defined as an interaction policy and executed in a closed loop. 
 
-### Core idea
+<!-- ### Core idea
 An audit is specified as:
 - an **interaction policy**
 - an **exposure budget** (with safety constraints)
@@ -40,4 +40,4 @@ Policies differ only in how they allocate attention based on the controller’s 
 ### What this project contributes
 - A formalization of **dynamic, policy-driven audits** under explicit exposure constraints
 - A system design that cleanly separates **control-time routing** from **offline measurement**
-- Evidence (via a probe-domain instantiation) that policy choice changes exposure trajectories and that multimodal routing matters in practice 
+- Evidence (via a probe-domain instantiation) that policy choice changes exposure trajectories and that multimodal routing matters in practice  -->

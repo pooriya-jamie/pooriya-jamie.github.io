@@ -36,27 +36,27 @@
   contents:
     - title: Research Intern
       institution: University of Twente
-      year: Jul 2023 - Present
+      # year: Jul 2023 - Present
       description:
         - "Project: AI-assisted assignment assessment system for measuring feedback uptake in student submissions"
         - Built a ChatGPT-based feedback assistant for formative assessment workflows
         - Iterated on prompts and evaluation criteria to improve clarity and coverage of feedback
     - title: Research Assistant
       institution: Tehran Institute for Advanced Studies (TeIAS)
-      year: Oct 2023 - Jul 2024
+      # year: Oct 2023 - Jul 2024
       description:
         - Studied how educators and students adopt and use ChatGPT in teaching and research settings
         - Conducted mixed-methods data collection (surveys and interviews) and summarized recurring themes
     - title: Research Assistant
       institution: University College London (UCL)
-      year: Dec 2023 - Apr 2024
+      # year: Dec 2023 - Apr 2024
       description:
         - "Project: emotion-aware music recommendation system"
         - Built an emotion signal extraction pipeline over song lyrics using a mix of unsupervised and supervised NLP
         - Used TextRank, extractive summarization, and GPT-3.5-based analysis to support recommendation features
     - title: Research Intern
       institution: University College London (UCL)
-      year: Jan 2023 - Dec 2023
+      # year: Jan 2023 - Dec 2023
       description:
         - "Project: augmented financial intelligence for Indian stock market forecasting"
         - Improved ML infrastructure and data preprocessing; contributed to model development and literature review

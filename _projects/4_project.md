@@ -1,80 +1,43 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: "Simulating Vulnerability"
+description: "LLM-driven agents for policy-controlled audits under exposure constraints"
+img: /assets/img/projects/simulating-vulnerability.png
+importance: 1
+category: work
+theme: sociotech
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<!-- **Status:** Manuscript in preparation (not yet published). -->
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Why this project
+Auditing recommender systems in safety-critical domains is hard for a simple reason: you often need to **express audit intent** (seek, avoid, stop) while also respecting **exposure constraints**. Scripted bots scale, but they are typically open-loop and cannot condition behavior on what is actually on screen. This project introduces a framework for **dynamic audits under exposure constraints**, where intent is explicitly defined as an interaction policy and executed in a closed loop. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Core idea
+An audit is specified as:
+- an **interaction policy**
+- an **exposure budget** (with safety constraints)
+- a **logging schema**
+- a **probe domain**
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+A **multimodal LLM controller** runs at control-time to estimate a lightweight content state from on-screen signals, then routes actions according to the pre-specified policy. Crucially, control-time predictions are used only for routing, while outcomes are computed offline to avoid circular evaluation. 
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### System design 
+The pipeline separates:
+- **Online policy execution** (controller routes actions and logs a full audit trace)
+- **Offline measurement** (post-hoc labeling + metrics)
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+This produces an inspectable trace (observation → controller output → action) and keeps measurement independent from the controller. 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Case study instantiation
+We instantiate the framework in a TikTok mental health probe domain and compare three policies:
+- Passive (open-loop baseline)
+- Interested (watch longer on probe-relevant content)
+- Avoiding (skip probe-relevant content)
 
-{% raw %}
+Policies differ only in how they allocate attention based on the controller’s control-time relevance decision. 
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+### What this project contributes
+- A formalization of **dynamic, policy-driven audits** under explicit exposure constraints
+- A system design that cleanly separates **control-time routing** from **offline measurement**
+- Evidence (via a probe-domain instantiation) that policy choice changes exposure trajectories and that multimodal routing matters in practice 

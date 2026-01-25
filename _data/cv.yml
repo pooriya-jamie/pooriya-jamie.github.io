@@ -64,7 +64,7 @@
 - title: Teaching Experience
   type: nested_list
   contents:
-    - title: Tehran Polytechnic (Teaching Assistant and Head TA)
+    - title: Tehran Polytechnic
       items:
         - Data Structures and Algorithms (Head TA), Oct 2023 - Present
         - Data Mining, Oct 2023 - Jan 2024
@@ -73,7 +73,7 @@
         - Foundation of Combinatorics, Feb 2023 - Jul 2023
         - Introduction to Computer and Programming, Oct 2022 - Jan 2023
         - Advanced Programming and Workshop, Sep 2022 - Jan 2023
-    - title: Sharif University of Technology (Teaching Assistant)
+    - title: Sharif University of Technology
       items:
         - Data Structures and Algorithms, Feb 2024 - Present
         - Algorithmic Game Theory, Jan 2024 - Present

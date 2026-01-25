@@ -5,7 +5,6 @@ permalink: /projects/
 description: Research projects organized by theme.
 nav: true
 nav_order: 3
-horizontal: true
 ---
 
 <div class="projects">
@@ -17,12 +16,10 @@ horizontal: true
   </p>
 
   {% assign llm_projects = site.projects | where: "theme", "llm" | sort: "importance" %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-      {% for project in llm_projects %}
-        {% include projects_horizontal.liquid %}
-      {% endfor %}
-    </div>
+  <div class="row row-cols-1">
+    {% for project in llm_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
   </div>
 
   <!-- Theme 2 -->
@@ -32,12 +29,10 @@ horizontal: true
   </p>
 
   {% assign sociotech_projects = site.projects | where: "theme", "sociotech" | sort: "importance" %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-      {% for project in sociotech_projects %}
-        {% include projects_horizontal.liquid %}
-      {% endfor %}
-    </div>
+  <div class="row row-cols-1">
+    {% for project in sociotech_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
   </div>
 
   <!-- Theme 3 -->
@@ -47,12 +42,10 @@ horizontal: true
   </p>
 
   {% assign aied_projects = site.projects | where: "theme", "aied" | sort: "importance" %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-      {% for project in aied_projects %}
-        {% include projects_horizontal.liquid %}
-      {% endfor %}
-    </div>
+  <div class="row row-cols-1">
+    {% for project in aied_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
   </div>
 
 </div>

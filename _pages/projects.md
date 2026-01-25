@@ -16,9 +16,9 @@ nav_order: 3
   </p>
 
   {% assign llm_projects = site.projects | where: "theme", "llm" | sort: "importance" %}
-  <div class="row row-cols-1">
+  <div class="row row-cols-1 g-3">
     {% for project in llm_projects %}
-      {% include projects.liquid %}
+      {% include projects_horizontal.liquid %}
     {% endfor %}
   </div>
 
@@ -29,9 +29,9 @@ nav_order: 3
   </p>
 
   {% assign sociotech_projects = site.projects | where: "theme", "sociotech" | sort: "importance" %}
-  <div class="row row-cols-1">
+  <div class="row row-cols-1 g-3">
     {% for project in sociotech_projects %}
-      {% include projects.liquid %}
+      {% include projects_horizontal.liquid %}
     {% endfor %}
   </div>
 
@@ -42,9 +42,9 @@ nav_order: 3
   </p>
 
   {% assign aied_projects = site.projects | where: "theme", "aied" | sort: "importance" %}
-  <div class="row row-cols-1">
+  <div class="row row-cols-1 g-3">
     {% for project in aied_projects %}
-      {% include projects.liquid %}
+      {% include projects_horizontal.liquid %}
     {% endfor %}
   </div>
 

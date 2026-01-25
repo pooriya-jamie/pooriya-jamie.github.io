@@ -9,7 +9,7 @@ theme: llm
 ---
 
 ### What this is
-A research direction focused on **systematic adversarial evaluation** of LLMs, with an emphasis on safety-critical failure modes (misinformation, manipulation, policy evasion, harmful advice).
+A research direction focused on **systematic adversarial evaluation** of LLMs, with an emphasis on safety-critical failure modes (misinformation, manipulation, harmful advice).
 
 ### How I approach it
 - **Threat modeling**: define attacker goals, constraints, and realistic interaction settings

@@ -662,6 +662,10 @@ footer.sticky-bottom {
     color: var(--global-text-color);
   }
 
+  .col {
+    margin-bottom: 1.5rem;
+  }
+
   .grid-sizer,
   .grid-item {
     width: 250px;

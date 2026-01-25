@@ -6,7 +6,7 @@
     - name: Email
       value: pooriya.jamie@gmail.com
     - name: Website
-      value: https://pooriya-jamie.github.io/
+      value: https://pooriya-jamie.github.io
     - name: Location
       value: Los Angeles, CA, USA
 
@@ -15,215 +15,109 @@
   contents:
     - title: Ph.D. in Communication
       institution: University of California, Los Angeles (UCLA)
-      location: Los Angeles, CA, USA
-      url: https://www.ucla.edu/
-      area: Data Science, Human-Computer Interaction, LLMs
-      studyType: Doctoral Degree
-      startDate: Sep 2025
-  
+      year: 2025 - Present
+      description:
+        - "Focus: human-centered AI, platform audits, and AI-assisted learning systems"
     - title: B.Sc. in Computer Science
       institution: Amirkabir University of Technology (Tehran Polytechnic)
-      location: Tehran, Iran
-      url: https://www.aut.ac.ir/
-      area: Computer Science
-      studyType: Bachelor's Degree
-      startDate: Sep 2021
-      score: 18.5/20
-      courses:
-        - Data Mining
-        - Linear Optimization
-        - Data Structures and Algorithms
-        - Design & Analysis of Algorithms
-        - Artificial Intelligence and Workshop
-        - Image Processing
-        - Neural Networks and Introduction to Deep Learning
+      year: 2021 - 2025
+      description:
+        - "GPA: 18.5/20"
+        - "Selected coursework: Data Mining; Linear Optimization; Data Structures and Algorithms; Design and Analysis of Algorithms; Artificial Intelligence; Image Processing; Neural Networks and Deep Learning"
 
 - title: Publications
-  type: time_table
+  type: list
   contents:
-    - title: Indian Stock Market Prediction using Augmented Financial Intelligence ML
-    - title: Utilizing ChatGPT in a Data Structures and Algorithms Course A Teaching Assistant’s Perspective
-    # - title: Emotion-aware Musical Recommendation System using Contextual Analysis
+    - Indian Stock Market Prediction using Augmented Financial Intelligence ML
+    - Utilizing ChatGPT in a Data Structures and Algorithms Course: A Teaching Assistant’s Perspective
 
 - title: Research Experience
   type: time_table
   contents:
     - title: Research Intern
       institution: University of Twente
-      start_date: Jul 2023
-      end_date: Present
-      project_title: AI-assisted Assignment Assessment System
-      supervisors:
-        - Dr. Mohammadreza Farrokhnia
-      description: |
-        Focused on developing an AI-assisted assignment assessment system that measures how much feedback has been applied in the final assignment. Utilized generative AI, specifically ChatGPT, to provide constructive feedback to students and improve areas in their assignments.
-
+      year: Jul 2023 - Present
+      description:
+        - "Project: AI-assisted assignment assessment system for measuring feedback uptake in student submissions"
+        - Built a ChatGPT-based feedback assistant for formative assessment workflows
+        - Iterated on prompts and evaluation criteria to improve clarity and coverage of feedback
     - title: Research Assistant
       institution: Tehran Institute for Advanced Studies (TeIAS)
-      start_date: Oct 2023
-      end_date: Jul 2024
-      project_title: ChatGPT's Impact on Education
-      supervisors:
-        - Dr. Sharareh Alipour
-      description: |
-        Analyzed the potential of ChatGPT in research and teaching domains, focusing on its influence on educational practices. Conducted studies, including surveys and interviews, to understand ChatGPT's adoption and utilization by educators.
-
+      year: Oct 2023 - Jul 2024
+      description:
+        - Studied how educators and students adopt and use ChatGPT in teaching and research settings
+        - Conducted mixed-methods data collection (surveys and interviews) and summarized recurring themes
     - title: Research Assistant
       institution: University College London (UCL)
-      start_date: Dec 2023
-      end_date: Apr 2024
-      project_title: Emotion-aware Musical Recommendation System
-      supervisors:
-        - Prof. Philip Treleaven
-      description: |
-        Developed a novel music recommendation system using contextual analysis of song lyrics. Focused on extracting sentiment-rich summaries from song lyrics using a combination of unsupervised and supervised techniques, including Text-Ranking, Bert-Extractive-Summarizer, and GPT-3.5 insights.
-
+      year: Dec 2023 - Apr 2024
+      description:
+        - "Project: emotion-aware music recommendation system"
+        - Built an emotion signal extraction pipeline over song lyrics using a mix of unsupervised and supervised NLP
+        - Used TextRank, extractive summarization, and GPT-3.5-based analysis to support recommendation features
     - title: Research Intern
       institution: University College London (UCL)
-      start_date: Jan 2023
-      end_date: Dec 2023
-      project_title: Augmented Financial Intelligence Project
-      supervisors:
-        - Prof. Philip Treleaven
-      description: |
-        Enhanced machine learning infrastructure and led literature review. Developed a platform for forecasting financial trends in the Indian market using machine learning techniques.
+      year: Jan 2023 - Dec 2023
+      description:
+        - "Project: augmented financial intelligence for Indian stock market forecasting"
+        - Improved ML infrastructure and data preprocessing; contributed to model development and literature review
 
 - title: Teaching Experience
-  type: time_table
+  type: nested_list
   contents:
-    - title: Data Structures and Algorithms Head
-      institutions: Tehran Polytechnic
-      start_date: Feb 2024
-      end_date: Present
-      # supervisor: Dr. Sajad Shirali-Shahreza
-    - title: Numerical Calculations
-      institution: Tehran Polytechnic
-      start_date: Feb 2024
-      end_date: Present
-      # supervisor: Dr. Mostafa Abbaszadeh
-    - title: Foundation of Numerical Analysis
-      institution: Tehran Polytechnic
-      start_date: Feb 2024
-      end_date: Present
-      # supervisor: Dr. Mostafa Shamsi
-    - title: Data Structures and Algorithms
-      institution: Sharif University of Technology
-      start_date: Feb 2024
-      end_date: Present
-      # supervisors: Dr. Mohammad Ali Abam
-    - title: Algorithmic Game Theory
-      institutions: Sharif University of Technology
-      start_date: Jan 2024
-      end_date: Present
-      # supervisor: Dr. Masoud Seddighin
-    - title: Principles and Techniques in Data Science
-      institution: Sharif University of Technology
-      start_date: Jan 2024
-      end_date: Present
-      # supervisor: Dr. MohammadAmin Fazli
-    - title: Data Mining
-      institution: Tehran Polytechnic
-      start_date: Oct 2023
-      end_date: Jan 2024
-      # supervisor: Dr. Maryam Amirmazlaghani
-    - title: Data Structures and Algorithms Head
-      institution: Tehran Polytechnic
-      start_date: Oct 2023
-      end_date: Jan 2024
-      # supervisor: Dr. Sajad Shirali-Shahreza
-    - title: Linear Algebra
-      institution: Sharif University of Technology
-      start_date: Oct 2023
-      end_date: Nov 2023
-      # supervisor: Dr. Ali Sharifi-Zarchi
-    - title: Algorithmic creativity and Python programming
-      institution: Sharif University of Technology
-      start_date: Jul 2023
-      end_date: Sep 2023
-      # supervisor: Dr. Ali Sharifi-Zarchi
-    - title: Data Structures and Algorithms
-      institution: Tehran Polytechnic
-      start_date: Feb 2023
-      end_date: Jul 2023
-      # supervisor: Dr. Sajad Shirali-Shahreza
-    - title: Foundation of Combinatorics
-      institution: Tehran Polytechnic
-      start_date: Feb 2023
-      end_date: Jul 2023
-      # supervisor: Dr. Zeinab Akhlaghi
-    - title: Introduction to Computer and Programming
-      institution: Tehran Polytechnic
-      start_date: Oct 2022
-      end_date: Jan 2023
-      # supervisor: Dr. Mohammad Akbari
-    - title: Advanced Programming & Workshop
-      institution: Tehran Polytechnic
-      start_date: Sep 2022
-      end_date: Jan 2023
-      # supervisor: Dr. Mohammad Mahdi Bejani
+    - title: Tehran Polytechnic (Teaching Assistant and Head TA)
+      items:
+        - Data Structures and Algorithms (Head TA), Oct 2023 - Present
+        - Data Mining, Oct 2023 - Jan 2024
+        - Foundation of Numerical Analysis, Feb 2024 - Present
+        - Numerical Calculations, Feb 2024 - Present
+        - Foundation of Combinatorics, Feb 2023 - Jul 2023
+        - Introduction to Computer and Programming, Oct 2022 - Jan 2023
+        - Advanced Programming and Workshop, Sep 2022 - Jan 2023
+    - title: Sharif University of Technology (Teaching Assistant)
+      items:
+        - Data Structures and Algorithms, Feb 2024 - Present
+        - Algorithmic Game Theory, Jan 2024 - Present
+        - Principles and Techniques in Data Science, Jan 2024 - Present
+        - Linear Algebra, Oct 2023 - Nov 2023
+        - Algorithmic Creativity and Python Programming, Jul 2023 - Sep 2023
 
 - title: Research Interests
   type: list
   contents:
-    - AI in Education
-    - Data mining and Data Science Applications in Social Good
-    - Machine learning
-    - Computer Vision and Image Processing
-    - Artificial Intelligence
-    - Human-computer interaction (HCI) and Human-AI interaction
-    - Designing intelligent systems
-    - Visualizing information
-    - Educational Data Mining
-    - LLMs in Education
-    - Learning Analytics
-    - student modeling
+    - Human-centered AI and human-AI interaction
+    - Platform audits and recommender system behavior
+    - AI in education and AI-assisted learning environments
+    - Learning analytics and educational data mining
+    - Accessibility and inclusive computing
+    - Applied machine learning and NLP for social good
 
-- title: Skills
-  type: list
-  contents:
-    - Analytical Problem-solving
-    - Machine Learning Algorithms
-    - Deep Learning Techniques
-    - Data Preprocessing and Visualization
-    - Optimization Techniques
-    - Feature Extraction and Image Recognition
-    - Quantitative Data Analysis
-    - Statistical Modeling
-    - Web Development
-    - Human-Computer Interaction (HCI)
-    - Communication Skills
-    - Teamwork and Collaboration
-    # Add other skills similarly...
-
-- title: Practical Skills
+- title: Technical Skills
   type: map
   contents:
-    - name: Machine Learning libraries
+    - name: Machine learning
       value:
-        - TensorFlow,
-        - PyTorch,
+        - PyTorch
+        - TensorFlow
         - scikit-learn
-    - name: Computer Vision libraries
+    - name: Data and visualization
       value:
-        - OpenCV
-    - name: Data manipulation and analysis libraries
-      value:
-        - NumPy,
+        - NumPy
         - Pandas
-    - name: Data visualization libraries
-      value:
-        - Matplotlib,
+        - Matplotlib
         - Seaborn
-    - name: Deep Learning frameworks
+    - name: Deep learning
       value:
         - Keras
-    - name: Programming languages
+    - name: Computer vision
       value:
-        - Python,
-        - C,
+        - OpenCV
+    - name: Programming
+      value:
+        - Python
+        - C
         - C++
-    - name: Web Development
+    - name: Web
       value:
-        - HTML,
-        - CSS,
+        - HTML
+        - CSS
         - JavaScript

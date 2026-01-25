@@ -1,16 +1,18 @@
 <div class="card-item col">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card hoverable">
-      <div class="row g-0">
+    <div class="card hoverable project-row-card">
+      <div class="row g-0 align-items-center">
         {% if project.img %}
-          <div class="card-img col-auto project-thumb">
+          <div class="col-4 col-sm-3 col-md-2 project-row-img">
             {% include figure.liquid loading="eager" path=project.img sizes="160px" alt="project thumbnail" %}
           </div>
         {% endif %}
-        <div class="{% if project.img %}col{% else %}col{% endif %}">
-          <div class="card-body">
-            <h3 class="card-title text-lowercase">{{ project.title }}</h3>
-            <p class="card-text">{{ project.description }}</p>
+
+        <div class="{% if project.img %}col-8 col-sm-9 col-md-10{% else %}col-12{% endif %}">
+          <div class="card-body project-row-body">
+            <h3 class="card-title project-row-title text-lowercase">{{ project.title }}</h3>
+            <p class="card-text project-row-desc">{{ project.description }}</p>
+
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
                 <div class="github-icon">
@@ -26,6 +28,7 @@
                 </div>
               {% endif %}
             </div>
+
           </div>
         </div>
       </div>

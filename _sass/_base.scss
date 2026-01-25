@@ -638,6 +638,30 @@ footer.sticky-bottom {
     }
   }
 
+  .project-row-img {
+    img {
+      width: 100%;
+      height: auto;
+      max-height: 120px;
+      object-fit: cover;
+      border-radius: 0.25rem;
+    }
+  }
+
+  .project-row-body {
+    padding: 1rem;
+  }
+
+  .project-row-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+  }
+
+  .project-row-desc {
+    margin-bottom: 0.5rem;
+    color: var(--global-text-color);
+  }
+
   .grid-sizer,
   .grid-item {
     width: 250px;

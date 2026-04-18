@@ -9,9 +9,11 @@ theme: llm
 ---
 
 ### What this is
+
 A research direction on **persuasion by agentic systems**: how AI agents can influence beliefs or actions when they can adapt, strategize, and interact over time.
 
 ### Core questions
+
 - When do agents become **meaningfully persuasive** beyond surface-level rhetoric?
 - What strategies emerge under constraints (limited info, limited time, safety rules)?
 - How do we measure persuasion without turning evaluation into vibes?

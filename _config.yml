@@ -13,7 +13,7 @@ keywords: academic-website, portfolio-website, Education, personal-website # add
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🚀 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: "https://pooriya-jamie.github.io"   # drop trailing slash for cleaner canonicals
+url: "https://pooriya-jamie.github.io" # drop trailing slash for cleaner canonicals
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -70,7 +70,7 @@ mastodon_username: # your mastodon instance+username in the format instance.tld/
 linkedin_username: pooriyajamie
 telegram_username: # your Telegram user name
 scholar_userid: NolFxk8AAAAJ
-semanticscholar_id: 
+semanticscholar_id:
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0009-0008-5750-111X
 medium_username: # your Medium username

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My first PhD paper, *["Seeking Help, Facing Harm: Auditing TikTok's Mental Health Recommendations,"](https://arxiv.org/abs/2604.14832)* has been accepted to the International AAAI Conference on Web and Social Media (ICWSM) 2026.
+My first PhD paper, _["Seeking Help, Facing Harm: Auditing TikTok's Mental Health Recommendations,"](https://arxiv.org/abs/2604.14832)_ has been accepted to the International AAAI Conference on Web and Social Media (ICWSM) 2026.

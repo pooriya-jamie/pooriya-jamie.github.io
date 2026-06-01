@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am pleased to share that my submission, _["Seeking Help, Facing Harm: Auditing TikTok's Mental Health Recommendations"](https://arxiv.org/abs/2604.14832)_, has been accepted as a **parallel talk** at IC2S2 2026.
+I am pleased to share that my submission, _["Seeking Help, Facing Harm: Auditing TikTok's Mental Health Recommendations"](https://doi.org/10.1609/icwsm.v20i1.42797)_, has been accepted as a **parallel talk** at IC2S2 2026.

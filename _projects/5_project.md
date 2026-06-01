@@ -34,3 +34,9 @@ This yields six experimental conditions and isolates stated intent (search) from
 ### Why this matters
 
 The results suggest limited sensitivity to user intent signals in a sensitive domain, and motivate context-aware safeguards that treat help-seeking as safety-relevant rather than just topical.
+
+---
+
+### Citation
+
+Jamie, P., Ghasemian, A., & Hosseinmardi, H. (2026). Seeking Help, Facing Harm: Auditing TikTok's Mental Health Recommendations. *Proceedings of the International AAAI Conference on Web and Social Media*, *20*(1), 2987–2995. https://doi.org/10.1609/icwsm.v20i1.42797

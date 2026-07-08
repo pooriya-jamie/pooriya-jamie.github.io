@@ -40,10 +40,6 @@ research_pillars:
     theme: "llm"
     description: "Evaluating persuasive, adversarial, and safety-critical behaviors in large language models and agents."
     url: "/projects/#llms"
-  - title: "AI in Education"
-    theme: "aied"
-    description: "Studying how learners and instructors use generative AI in real courses and assessment workflows."
-    url: "/projects/#aied"
 
 featured_projects:
   - "Seeking Help, Facing Harm"

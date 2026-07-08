@@ -355,7 +355,12 @@ body.fixed-top-nav {
   }
 }
 
-.research-pillars,
+.research-pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 1rem;
+}
+
 .featured-projects-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

@@ -1,34 +1,47 @@
-<div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card hoverable h-100">
-      {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-        %}
-      {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
-          {% if project.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
-              {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fa-solid fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-              {% endif %}
-            </div>
+{% if project.redirect %}
+  {% assign project_url = project.redirect %}
+{% else %}
+  {% assign project_url = project.url | relative_url %}
+{% endif %}
+
+<div class="col project-card-col" data-project-theme="{{ project.theme }}">
+  <article class="project-card h-100">
+    {% if project.img %}
+      <a class="project-card__image" href="{{ project_url }}" aria-label="View {{ project.title }}">
+        {% include figure.liquid loading="lazy" path=project.img sizes="(min-width: 768px) 460px, 92vw" alt=project.title %}
+      </a>
+    {% endif %}
+    <div class="project-card__body">
+      <span class="theme-chip theme-chip--{{ project.theme }}">
+        {% case project.theme %}
+          {% when 'llm' %}
+            LLM Safety
+          {% when 'sociotech' %}
+            Platform Audits
+          {% when 'aied' %}
+            AI in Education
+          {% else %}
+            Research
+        {% endcase %}
+      </span>
+      <h3 class="project-card__title">
+        <a href="{{ project_url }}">{{ project.title }}</a>
+      </h3>
+      <p class="project-card__description">{{ project.description }}</p>
+      <div class="project-card__actions">
+        <a class="text-link" href="{{ project_url }}">Read more</a>
+        {% if project.github %}
+          <a class="icon-link" href="{{ project.github }}" title="Code Repository" aria-label="Code Repository">
+            <i class="fa-brands fa-github gh-icon"></i>
+          </a>
+          {% if project.github_stars %}
+            <span class="stars" title="GitHub Stars">
+              <i class="fa-solid fa-star"></i>
+              <span id="{{ project.github_stars }}-stars"></span>
+            </span>
           {% endif %}
-        </div>
+        {% endif %}
       </div>
     </div>
-  </a>
+  </article>
 </div>

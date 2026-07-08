@@ -2,7 +2,7 @@
 layout: page
 title: "Prevalence of Problematic Content"
 description: "Comprehensive evaluation of AI systems in real-world deployment contexts"
-img: /assets/img/projects/problematic-content.png
+img: /assets/img/projects/problematic-content-card.jpg
 importance: 3
 category: work
 theme: sociotech

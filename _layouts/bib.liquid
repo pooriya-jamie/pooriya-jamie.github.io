@@ -1,6 +1,23 @@
 ---
 ---
-<div class="row">
+{% assign entry_keywords = entry.keywords | default: '' | downcase %}
+{% assign entry_title = entry.title | downcase %}
+{% assign publication_topic = 'other' %}
+{% if entry_title contains 'tiktok'
+  or entry_title contains 'mental health'
+  or entry_keywords contains 'recommender'
+  or entry_keywords contains 'platform'
+%}
+  {% assign publication_topic = 'platform' %}
+{% elsif entry_title contains 'stock' or entry_keywords contains 'finance' %}
+  {% assign publication_topic = 'applied-ml' %}
+{% elsif entry_title contains 'chatgpt' or entry_title contains 'course' or entry_keywords contains 'education' %}
+  {% assign publication_topic = 'education' %}
+{% elsif entry_keywords contains 'llm' or entry_keywords contains 'ai' %}
+  {% assign publication_topic = 'llm' %}
+{% endif %}
+
+<div class="row publication-entry js-filter-item" data-filter-year="{{ entry.year }}" data-filter-topic="{{ publication_topic }}">
   {% if site.enable_publication_thumbnails %}
     <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
       {% if entry.preview %}
@@ -157,13 +174,13 @@
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        <a class="abstract btn btn-sm z-depth-0" href="#" role="button" aria-expanded="false">Abs</a>
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+        <a class="bibtex btn btn-sm z-depth-0" href="#" role="button" aria-expanded="false">Bib</a>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
@@ -187,7 +204,7 @@
         {% endif %}
       {% endif %}
       {% if entry.video %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+        <a class="abstract btn btn-sm z-depth-0" href="#" role="button" aria-expanded="false">Video</a>
       {% endif %}
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>

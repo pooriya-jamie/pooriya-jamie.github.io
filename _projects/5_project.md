@@ -2,7 +2,7 @@
 layout: page
 title: "Seeking Help, Facing Harm"
 description: "Auditing TikTok mental health recommendations under help-seeking vs distress intent"
-img: /assets/img/projects/seeking-help-facing-harm.png
+img: /assets/img/projects/seeking-help-facing-harm-card.jpg
 importance: 2
 category: work
 theme: sociotech

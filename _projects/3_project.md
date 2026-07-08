@@ -2,7 +2,7 @@
 layout: page
 title: "ChatGPT in a Data Structures and Algorithms Course"
 description: "A TA perspective on classroom use, student behavior, and implications for teaching"
-img: /assets/img/projects/chatgpt-dsa.png
+img: /assets/img/projects/chatgpt-dsa-card.jpg
 importance: 4
 category: work
 theme: aied

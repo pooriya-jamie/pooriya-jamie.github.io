@@ -2,7 +2,7 @@
 layout: page
 title: "Agentic AI Persuasions"
 description: "Understanding AI agents' persuasive capabilities in realistic social settings"
-img: /assets/img/projects/agentic-ai-persuasions.png
+img: /assets/img/projects/agentic-ai-persuasions-card.jpg
 importance: 2
 category: work
 theme: llm

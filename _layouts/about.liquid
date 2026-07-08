@@ -1,68 +1,196 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
+{% assign display_name = site.first_name | append: ' ' | append: site.last_name %}
+{% if site.title != 'blank' %}
+  {% assign display_name = site.title %}
+{% endif %}
+
+<div class="home-page">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="home-hero__content">
+      <p class="home-eyebrow">{{ page.hero.eyebrow | default: page.subtitle }}</p>
+      <h1 id="home-title" class="home-hero__title">
+        <span class="home-hero__name">{{ display_name }}</span>
+      </h1>
+      <p class="home-hero__summary">{{ page.hero.summary | default: page.subtitle }}</p>
+
+      {% if page.hero.meta %}
+        <div class="home-hero__meta" aria-label="Research areas and affiliations">
+          {% for item in page.hero.meta %}
+            <span>{{ item }}</span>
+          {% endfor %}
+        </div>
       {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if profile_image_path | file_exists %}
-            {% if page.profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
-          {% else %}
-            <p>Profile image not found. Please upload the image or check the file path.</p>
-          {% endif %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+      {% if page.hero.ctas %}
+        <div class="home-actions" aria-label="Primary links">
+          {% for cta in page.hero.ctas %}
+            {% assign cta_url = cta.url %}
+            {% unless cta.url contains '://' or cta.url contains 'mailto:' %}
+              {% assign cta_url = cta.url | relative_url %}
+            {% endunless %}
+            <a class="home-button home-button--{{ cta.style | default: 'secondary' }}" href="{{ cta_url }}">
+              {% if cta.icon %}
+                <i class="{{ cta.icon }}" aria-hidden="true"></i>
+              {% endif %}
+              <span>{{ cta.label }}</span>
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <div class="home-hero__affiliation">
+        {{ page.subtitle }}
       </div>
-    {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+      {% if page.social %}
+        <div class="home-social" aria-label="Social and academic profiles">
+          {% include social.liquid %}
+        </div>
+      {% endif %}
+    </div>
 
-    <!-- News -->
-    {% if page.news and site.announcements.enabled %}
-      <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a></h2>
-      {% include news.liquid limit=true %}
+    {% if page.profile.image %}
+      <aside class="home-hero__portrait" aria-label="{{ display_name }} portrait">
+        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+        {% assign profile_image_exists = profile_image_path | file_exists %}
+        {% if profile_image_exists %}
+          {% include figure.liquid loading="eager" path=profile_image_path class="home-portrait-img" sizes="(min-width: 992px) 360px, 80vw" alt=display_name cache_bust=true %}
+        {% else %}
+          <p>Profile image not found. Please upload the image or check the file path.</p>
+        {% endif %}
+      </aside>
     {% endif %}
+  </section>
 
-    <!-- Latest posts -->
-    {% if site.latest_posts.enabled %}
-      <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a></h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a></h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
+  <article class="home-section home-bio" aria-labelledby="about-heading">
+    <div class="home-section__header">
+      <p class="home-section__kicker">About</p>
+      <h2 id="about-heading">Researching digital systems where people actually live with them.</h2>
+    </div>
+    <div class="home-bio__text">{{ content }}</div>
   </article>
+
+  {% if page.research_pillars %}
+    <section class="home-section" aria-labelledby="pillars-heading">
+      <div class="home-section__header">
+        <p class="home-section__kicker">Research Themes</p>
+        <h2 id="pillars-heading">Three connected threads.</h2>
+      </div>
+      <div class="research-pillars">
+        {% for pillar in page.research_pillars %}
+          <a class="research-pillar research-pillar--{{ pillar.theme }}" href="{{ pillar.url | relative_url }}">
+            <span class="research-pillar__index">0{{ forloop.index }}</span>
+            <h3>{{ pillar.title }}</h3>
+            <p>{{ pillar.description }}</p>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  <section class="home-section" aria-labelledby="featured-projects-heading">
+    <div class="home-section__header home-section__header--inline">
+      <div>
+        <p class="home-section__kicker">Featured Work</p>
+        <h2 id="featured-projects-heading">Current projects.</h2>
+      </div>
+      <a class="home-section__link" href="{{ '/projects/' | relative_url }}">All projects</a>
+    </div>
+
+    <div class="featured-projects-grid">
+      {% if page.featured_projects %}
+        {% for project_title in page.featured_projects %}
+          {% assign project = site.projects | where: 'title', project_title | first %}
+          {% if project %}
+            <a
+              class="featured-project-card"
+              href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}"
+            >
+              {% if project.img %}
+                <div class="featured-project-card__image">
+                  {% include figure.liquid loading="lazy" path=project.img sizes="(min-width: 992px) 320px, 90vw" alt=project.title %}
+                </div>
+              {% endif %}
+              <div class="featured-project-card__body">
+                <span class="theme-chip theme-chip--{{ project.theme }}">
+                  {% case project.theme %}
+                    {% when 'llm' %}
+                      LLM Safety
+                    {% when 'sociotech' %}
+                      Platform Audits
+                    {% when 'aied' %}
+                      AI in Education
+                    {% else %}
+                      Research
+                  {% endcase %}
+                </span>
+                <h3>{{ project.title }}</h3>
+                <p>{{ project.description }}</p>
+              </div>
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% assign sorted_projects = site.projects | sort: 'importance' %}
+        {% for project in sorted_projects limit: 3 %}
+          <a
+            class="featured-project-card"
+            href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}"
+          >
+            {% if project.img %}
+              <div class="featured-project-card__image">
+                {% include figure.liquid loading="lazy" path=project.img sizes="(min-width: 992px) 320px, 90vw" alt=project.title %}
+              </div>
+            {% endif %}
+            <div class="featured-project-card__body">
+              <span class="theme-chip theme-chip--{{ project.theme }}">Research</span>
+              <h3>{{ project.title }}</h3>
+              <p>{{ project.description }}</p>
+            </div>
+          </a>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </section>
+
+  {% if page.news and site.announcements.enabled %}
+    <section class="home-section" aria-labelledby="news-heading">
+      <div class="home-section__header home-section__header--inline">
+        <div>
+          <p class="home-section__kicker">Updates</p>
+          <h2 id="news-heading">Recent news.</h2>
+        </div>
+        <a class="home-section__link" href="{{ '/news/' | relative_url }}">All news</a>
+      </div>
+      {% include news.liquid limit=true layout="timeline" %}
+    </section>
+  {% endif %}
+
+  {% if site.latest_posts.enabled %}
+    <section class="home-section" aria-labelledby="posts-heading">
+      <div class="home-section__header home-section__header--inline">
+        <div>
+          <p class="home-section__kicker">Writing</p>
+          <h2 id="posts-heading">Latest posts.</h2>
+        </div>
+        <a class="home-section__link" href="{{ '/blog/' | relative_url }}">All posts</a>
+      </div>
+      {% include latest_posts.liquid %}
+    </section>
+  {% endif %}
+
+  {% if page.selected_papers %}
+    <section class="home-section" aria-labelledby="selected-publications-heading">
+      <div class="home-section__header home-section__header--inline">
+        <div>
+          <p class="home-section__kicker">Publications</p>
+          <h2 id="selected-publications-heading">Selected papers.</h2>
+        </div>
+        <a class="home-section__link" href="{{ '/publications/' | relative_url }}">All publications</a>
+      </div>
+      {% include selected_papers.liquid %}
+    </section>
+  {% endif %}
 </div>

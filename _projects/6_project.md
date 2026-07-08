@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "LLM Red Teaming & Safety"
-description: "Adversarial testing and safety evaluation of large language models"
-img: /assets/img/projects/llm-red-teaming.png
+title: "Blind Spot"
+description: "Using AI agents to surface known and novel social media harms under realistic behavioral gaps"
+img: /assets/img/projects/blind-spot-card.jpg
 importance: 1
 category: work
 theme: llm
@@ -10,16 +10,14 @@ theme: llm
 
 ### What this is
 
-A research direction focused on **systematic adversarial evaluation** of LLMs, with an emphasis on safety-critical failure modes (misinformation, manipulation, harmful advice).
+Blind Spot studies how AI agents can help identify **known and novel social media harms** while accounting for the gap between what systems recommend and how users actually behave.
 
-### How I approach it
+### Core idea
 
-- **Threat modeling**: define attacker goals, constraints, and realistic interaction settings
-- **Red teaming protocols**: controlled prompts, multi-turn attacks, and scenario-based probes
-- **Evaluation**: failure taxonomies, severity scoring, and comparative model analysis
+- Compare established harm categories with emerging forms of harm that are harder to predefine
+- Use agentic summaries, advice, and recommendation judgments as structured measurement signals
+- Separate caution-worthy outcomes from neutral or benign recommendations
 
-### What comes out of it
+### Why it matters
 
-- Reproducible red-team suites and documentation
-- Failure-mode datasets and case studies
-- Guidance for mitigation and safer deployment
+Safety evaluations often focus on harms that are already easy to name. This project asks where AI-assisted auditing can reveal the blind spots: content patterns, user trajectories, or behavioral gaps that existing labels miss.

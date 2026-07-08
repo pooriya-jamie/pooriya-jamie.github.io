@@ -2,7 +2,7 @@
 layout: page
 title: "Simulating Vulnerability"
 description: "LLM-driven agents for policy-controlled audits under exposure constraints"
-img: /assets/img/projects/simulating-vulnerability.png
+img: /assets/img/projects/simulating-vulnerability-card.jpg
 importance: 1
 category: work
 theme: sociotech

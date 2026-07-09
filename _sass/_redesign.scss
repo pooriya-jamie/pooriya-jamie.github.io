@@ -905,6 +905,21 @@ footer.sticky-bottom {
     }
   }
 
+  .home-hero {
+    justify-items: stretch;
+    gap: 1.65rem;
+    padding-top: 1.25rem;
+  }
+
+  .home-hero__content {
+    width: 100%;
+  }
+
+  .home-hero__portrait {
+    justify-self: stretch;
+    width: 100%;
+  }
+
   .home-hero__title {
     font-size: clamp(2.75rem, 16vw, 4.25rem);
   }
@@ -912,18 +927,18 @@ footer.sticky-bottom {
   .home-hero__meta {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
-    max-width: 18rem;
+    max-width: none;
   }
 
   .home-hero__summary,
   .home-hero__affiliation {
-    max-width: 18rem;
+    max-width: none;
   }
 
   .home-actions {
     align-items: stretch;
     flex-direction: column;
-    max-width: 18rem;
+    max-width: none;
   }
 
   .home-button {

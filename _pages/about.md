@@ -12,10 +12,6 @@ hero:
     - "Human-centered AI"
     - "Platform audits"
   ctas:
-    - label: "View CV"
-      url: "/cv/"
-      icon: "fa-regular fa-file-lines"
-      style: "primary"
     - label: "Publications"
       url: "/publications/"
       icon: "fa-solid fa-book-open"

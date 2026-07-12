@@ -6,6 +6,8 @@ img: /assets/img/projects/simulating-vulnerability-card.jpg
 importance: 1
 category: work
 theme: sociotech
+demo_url: https://pooriya-jamie.github.io/audit-pipline-demo/
+demo_label: "Open interactive demo"
 ---
 
 <!-- **Status:** Manuscript in preparation (not yet published). -->

@@ -30,6 +30,12 @@
       <p class="project-card__description">{{ project.description }}</p>
       <div class="project-card__actions">
         <a class="text-link" href="{{ project_url }}">Read more</a>
+        {% if project.demo_url %}
+          <a class="text-link" href="{{ project.demo_url }}" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-play" aria-hidden="true"></i>
+            <span>Live demo</span>
+          </a>
+        {% endif %}
         {% if project.github %}
           <a class="icon-link" href="{{ project.github }}" title="Code Repository" aria-label="Code Repository">
             <i class="fa-brands fa-github gh-icon"></i>

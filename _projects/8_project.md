@@ -38,4 +38,4 @@ A binary label cannot capture whether a claim is dangerous, what it concerns, or
 
 ### Citation
 
-Pessianzadeh, A., Jamie, P., Sultana, N., Himmelstein, G., Zektser, Y., Ganz, P., Hosseinmardi, H., Ghasemian, A., & Rezapour, R. (2026). Beyond Binary Detection: A Multi-Dimensional Taxonomy of Cancer Misinformation on Reddit. In *Findings of the Association for Computational Linguistics: EMNLP 2026*. To appear. [arXiv:2607.12383](https://arxiv.org/abs/2607.12383).
+Pessianzadeh, A., Jamie, P., Sultana, N., Himmelstein, G., Zektser, Y., Ganz, P., Hosseinmardi, H., Ghasemian, A., & Rezapour, R. (2026). Beyond Binary Detection: A Multi-Dimensional Taxonomy of Cancer Misinformation on Reddit. In _Findings of the Association for Computational Linguistics: EMNLP 2026_. To appear. [arXiv:2607.12383](https://arxiv.org/abs/2607.12383).

@@ -35,4 +35,4 @@ Search queries are explicit signals of what users need. These findings show that
 
 ### Citation
 
-Jamie, P., Hosseinmardi, H., Rezapour, R., Pessianzadeh, A., Ganz, P. A., & Ghasemian, A. (2026). How You Ask Shapes What You Get: Auditing Breast-Cancer Misinformation in TikTok Search. In *DAIH: LLM/VLM Deployment Opportunities and Risks in Healthcare Workshop at COLM 2026*. To appear. [arXiv:2607.13147](https://arxiv.org/abs/2607.13147).
+Jamie, P., Hosseinmardi, H., Rezapour, R., Pessianzadeh, A., Ganz, P. A., & Ghasemian, A. (2026). How You Ask Shapes What You Get: Auditing Breast-Cancer Misinformation in TikTok Search. In _DAIH: LLM/VLM Deployment Opportunities and Risks in Healthcare Workshop at COLM 2026_. To appear. [arXiv:2607.13147](https://arxiv.org/abs/2607.13147).

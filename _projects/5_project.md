@@ -39,4 +39,4 @@ The results suggest limited sensitivity to user intent signals in a sensitive do
 
 ### Citation
 
-Jamie, P., Ghasemian, A., & Hosseinmardi, H. (2026). Seeking Help, Facing Harm: Auditing TikTok's Mental Health Recommendations. *Proceedings of the International AAAI Conference on Web and Social Media*, *20*(1), 2987–2995. https://doi.org/10.1609/icwsm.v20i1.42797
+Jamie, P., Ghasemian, A., & Hosseinmardi, H. (2026). Seeking Help, Facing Harm: Auditing TikTok's Mental Health Recommendations. _Proceedings of the International AAAI Conference on Web and Social Media_, _20_(1), 2987–2995. https://doi.org/10.1609/icwsm.v20i1.42797

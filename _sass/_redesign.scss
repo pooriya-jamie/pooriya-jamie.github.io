@@ -722,6 +722,11 @@ body.fixed-top-nav {
   background-color: var(--global-green-soft-color);
 }
 
+.theme-chip--annotation {
+  color: var(--global-accent-ink-color);
+  background-color: var(--global-accent-soft-color);
+}
+
 .demos {
   display: grid;
   grid-template-columns: minmax(0, 1fr);

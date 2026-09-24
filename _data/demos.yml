@@ -48,3 +48,27 @@
     - 5 steps · ~20 min
     - Privacy-first
     - Synthetic data
+
+- title: Annotation Platform
+  kicker: Data Annotation
+  chip: annotation
+  pitch: >-
+    Try both sides of a content-labeling study. Annotators code public social-media posts one
+    item at a time with a fixed codebook, and every label is saved against a locked version of
+    the form so two people's answers can be compared fairly.
+  url: https://pooriya-jamie.github.io/annotation-platform-demo/
+  code: https://github.com/pooriya-jamie/annotation-platform-demo
+  image: /assets/img/demos/annotation-platform.png
+  glow_a: "#1f8a66"
+  glow_b: "#ffd100"
+  highlights:
+    - icon: fa-solid fa-pen-to-square
+      text: Sign in as a demo annotator and label sample posts with the study codebook
+    - icon: fa-solid fa-scale-balanced
+      text: Switch to the study manager to track each annotator's progress and how often they agree
+    - icon: fa-solid fa-layer-group
+      text: Split a dataset into tasks so every post is seen by two people
+  tags:
+    - Annotator & manager views
+    - Inter-annotator agreement
+    - Synthetic data

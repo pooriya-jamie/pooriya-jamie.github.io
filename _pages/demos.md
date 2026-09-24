@@ -2,7 +2,7 @@
 layout: page
 title: demos
 permalink: /demos/
-description: Hands-on tours of the research systems behind my work. Both run right in your browser, no sign-up needed.
+description: Hands-on tours of the research systems behind my work. Each one runs right in your browser, no sign-up needed.
 nav: true
 nav_order: 4
 ---

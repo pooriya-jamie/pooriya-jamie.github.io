@@ -1,0 +1,50 @@
+- title: Social Media Audit Pipeline
+  kicker: Platform Audits
+  chip: sociotech
+  pitch: >-
+    Watch an LLM agent audit a TikTok feed in real time. It scrolls, screenshots each video,
+    asks a vision model whether the video is about mental health, and then decides to keep
+    watching or skip, the way a simulated user persona would.
+  url: https://pooriya-jamie.github.io/audit-pipline-demo/
+  code: https://github.com/pooriya-jamie/audit-pipline-demo
+  image: /assets/img/demos/audit-pipeline.png
+  related_url: /projects/4_project/
+  related_label: Simulating Vulnerability
+  glow_a: "#22d3ee"
+  glow_b: "#e0409b"
+  highlights:
+    - icon: fa-solid fa-user-gear
+      text: Pick a scenario and persona, then press play or step through one video at a time
+    - icon: fa-solid fa-diagram-project
+      text: Follow every pipeline stage, from scroll and screenshot to the GPT-4o-mini decision
+    - icon: fa-solid fa-chart-simple
+      text: Watch session stats and the decision timeline build up, then export the run
+  tags:
+    - LLM agent
+    - GPT-4o-mini vision
+    - TikTok & YouTube
+    - 0.5×–4× playback
+
+- title: DataDonate
+  kicker: Research Infrastructure
+  chip: data
+  pitch: >-
+    A guided tour of a data-donation platform where people share their own app activity from
+    TikTok or YouTube with researchers on their own terms. The raw file never leaves their
+    device, and they see exactly what will be sent before anything leaves.
+  url: https://pooriya-jamie.github.io/data-donation-demo/
+  code: https://github.com/pooriya-jamie/data-donation-demo
+  image: /assets/img/demos/data-donation.png
+  glow_a: "#2774ae"
+  glow_b: "#3fb98b"
+  highlights:
+    - icon: fa-solid fa-mobile-screen
+      text: Walk through the participant flow, from downloading your data to choosing what to share
+    - icon: fa-solid fa-shield-halved
+      text: See the server-side checks, encrypted storage, and the receipt participants get
+    - icon: fa-solid fa-users-gear
+      text: Switch to the research team's console and follow where the data goes
+  tags:
+    - 5 steps · ~20 min
+    - Privacy-first
+    - Synthetic data

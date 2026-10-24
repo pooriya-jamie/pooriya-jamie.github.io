@@ -8,7 +8,7 @@ middle_name:
 last_name: Jamie
 email: Pjamie@ucla.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Pooriya Jamie is a UCLA Communication PhD student studying human-centered AI, platform audits, social media recommender systems, and AI in education.
+  Pooriya Jamie is a UCLA Computational Communication PhD student studying human-centered AI, platform audits, social media recommender systems, and AI in education.
 footer_text: >
 keywords: academic-website, portfolio-website, Education, personal-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

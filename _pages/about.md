@@ -2,10 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student in Communication at <a href='https://www.ucla.edu/'>University of California, Los Angeles (UCLA)</a>.
+subtitle: PhD student in Computational Communication at <a href='https://www.ucla.edu/'>University of California, Los Angeles (UCLA)</a>.
 
 hero:
-  eyebrow: "UCLA Communication PhD student"
+  eyebrow: "UCLA Computational Communication PhD student"
   summary: "I study how algorithmic curation, AI systems, and platform design shape social media experiences, safety, and well-being."
   meta:
     - "OASIS Lab"
@@ -47,7 +47,7 @@ selected_papers: true
 social: true
 ---
 
-Hello, I’m Pooriya Jamie, a first-year PhD student in Communication (Research Methodology and Quantitative Methods) at the University of California, Los Angeles (UCLA) and a member of the <a href="https://oasislab.science/">OASIS Lab</a>. I’m advised by <a href="https://homahm.github.io/">Homa Hosseinmardi</a> and co-advised by <a href="https://aghasemian.github.io/">Amir Ghasemian</a>. My research examines how algorithmic curation shapes social media experiences and influences user well-being, at the intersection of human-computer interaction, data science, and socio-technical systems.
+Hello, I’m Pooriya Jamie, a first-year PhD student in Computational Communication (Research Methodology and Quantitative Methods) at the University of California, Los Angeles (UCLA) and a member of the <a href="https://oasislab.science/">OASIS Lab</a>. I’m advised by <a href="https://homahm.github.io/">Homa Hosseinmardi</a> and co-advised by <a href="https://aghasemian.github.io/">Amir Ghasemian</a>. My research examines how algorithmic curation shapes social media experiences and influences user well-being, at the intersection of human-computer interaction, data science, and socio-technical systems.
 
 Previously, I explored AI’s transformative potential in education, including developing AI-assisted tools to analyze student learning behaviors, studying the effects of large language models on problem-solving, and designing adaptive systems for personalized learning. These experiences shaped my broader interest in leveraging computational and human-centered methods to understand and improve experiences in digital environments.
 

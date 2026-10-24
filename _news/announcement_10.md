@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Excited to share that my paper, _["How You Ask Shapes What You Get: Auditing Breast-Cancer Misinformation in TikTok Search,"](https://arxiv.org/abs/2607.13147)_ has been accepted to the [LLM/VLM Deployment Opportunities and Risks in Healthcare (DAIH) Workshop](https://daih2026.github.io/) at COLM 2026.
+Excited to share that my paper, _["How You Ask Shapes What You Get: Auditing Breast-Cancer Misinformation in TikTok Search,"](https://openreview.net/forum?id=BO8t8mqolu)_ has been accepted to the [LLM/VLM Deployment Opportunities and Risks in Healthcare (DAIH) Workshop](https://daih2026.github.io/) at COLM 2026.

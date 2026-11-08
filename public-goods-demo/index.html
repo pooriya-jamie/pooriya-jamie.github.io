@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f3ec" />
+    <meta name="description" content="Explore a recorded public goods experiment with 24 LLM agents. Replay their decisions, follow regrouping, and try the contribution–payoff trade-off yourself." />
+    <title>The cooperation lab · Pooriya Jamie</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./data.js"></script>
+    <script defer src="./core.js"></script>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#experiment">Skip to the experiment</a>
+    <header class="site-header page-width">
+      <a class="back-link" href="/demos/"><span aria-hidden="true">←</span> All demos</a>
+      <a class="wordmark" href="/" aria-label="Pooriya Jamie's research website">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span>Research by <strong>Pooriya Jamie</strong></span>
+      </a>
+    </header>
+
+    <main class="page-width">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="intro-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> The cooperation lab</p>
+          <h1 id="page-title">What do we owe <em>the group?</em></h1>
+          <p class="lede">Keep your tokens, or contribute to something shared. Follow 24 AI agents as they make that choice—then meet an entirely new group.</p>
+        </div>
+        <aside class="game-brief" aria-label="Game at a glance">
+          <p class="brief-label">The experiment</p>
+          <div class="brief-numbers"><strong>24<span>agents</span></strong><span class="brief-separator" aria-hidden="true">/</span><strong>6<span>rounds</span></strong></div>
+          <p>Four agents per group.<br />No pair meets twice.</p>
+        </aside>
+      </section>
+
+      <section id="experiment" class="experiment" aria-label="Interactive public goods experiment">
+        <div class="playback-toolbar">
+          <div class="playback-actions" aria-label="Playback controls">
+            <button id="play-button" class="button button-primary" type="button" aria-pressed="false"><span id="play-icon" aria-hidden="true">▶</span><span id="play-label">Play the session</span></button>
+            <div class="step-buttons">
+              <button id="previous-round" class="icon-button" type="button" aria-label="Previous round" title="Previous round">←</button>
+              <button id="next-round" class="icon-button" type="button" aria-label="Next round" title="Next round">→</button>
+            </div>
+          </div>
+          <div class="round-navigation">
+            <span class="control-label">Round</span>
+            <div id="round-controls" class="round-controls" role="group" aria-label="Choose a round">
+              <button type="button" data-round="1" aria-pressed="true" class="is-current">1</button>
+              <button type="button" data-round="2" aria-pressed="false">2</button>
+              <button type="button" data-round="3" aria-pressed="false">3</button>
+              <button type="button" data-round="4" aria-pressed="false">4</button>
+              <button type="button" data-round="5" aria-pressed="false">5</button>
+              <button type="button" data-round="6" aria-pressed="false">6</button>
+            </div>
+          </div>
+          <label class="speed-control"><span class="control-label">Speed</span><select id="playback-speed" aria-label="Playback speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select></label>
+        </div>
+        <p id="load-error" class="load-error" role="alert" hidden></p>
+        <noscript><p class="load-error">This experiment needs JavaScript to replay the recorded decisions. The game explanation and research notes below remain available.</p></noscript>
+
+        <div class="lab-layout">
+          <section class="network-panel panel" aria-labelledby="network-title">
+            <div class="panel-heading">
+              <div><p class="eyebrow small">The group is always changing</p><h2 id="network-title">Round <span id="round-number">1</span> <span class="muted">of 6</span></h2></div>
+              <span id="round-status" class="recorded-badge"><span aria-hidden="true"></span> Recorded session</span>
+            </div>
+            <p id="round-subtitle" class="panel-intro">Select an agent to explore its contribution and the choices it observed.</p>
+            <div class="round-stats" aria-label="Current round statistics">
+              <div><span class="metric-label">Average contribution</span><p><strong id="mean-contribution">—</strong><span> / 20</span></p></div>
+              <div><span class="metric-label">Tokens shared</span><p><strong id="total-contribution">—</strong><span> / 480</span></p></div>
+              <div><span class="metric-label">Average payoff</span><p><strong id="mean-payoff">—</strong><span> tokens</span></p></div>
+            </div>
+            <div class="arena-heading"><span>Six groups. One shared decision.</span><span class="agent-key"><i aria-hidden="true"></i> number = tokens given</span></div>
+            <div id="network-grid" class="network-grid" aria-label="Groups and agent contributions"></div>
+            <div class="arena-legend" aria-label="Agent highlights"><span><i class="selected-key" aria-hidden="true"></i> selected agent</span><span><i class="observed-key" aria-hidden="true"></i> previous groupmates</span><span class="legend-tip">Select any circle to follow an agent.</span></div>
+            <div class="trend-section">
+              <div class="trend-heading"><h3>Cooperation across the session</h3><span>average tokens given · 0–20</span></div>
+              <svg id="contribution-chart" class="contribution-chart" viewBox="0 0 580 105" role="img" aria-label="Average contribution across six rounds"></svg>
+            </div>
+          </section>
+
+          <aside class="inspector-column" aria-label="Agent details and payoff calculator">
+            <section class="agent-panel panel" aria-labelledby="agent-name">
+              <div class="agent-heading"><div class="agent-heading-icon" aria-hidden="true"><span></span></div><div><p class="eyebrow small">Under the microscope</p><h2 id="agent-name">Choose an agent</h2></div><span id="agent-persona" class="persona-tag">—</span></div>
+              <div class="agent-measures"><div><span>Contributed</span><strong><span id="agent-contribution">—</span><small> tokens</small></strong></div><div><span>Received</span><strong><span id="agent-payoff">—</span><small> tokens</small></strong></div></div>
+              <div class="observation-block"><h3>What it knew</h3><p id="agent-observation">The first round begins without observations of other agents.</p></div>
+              <div class="agent-history-block"><h3>Its contributions</h3><div id="agent-history" class="agent-history" aria-label="Selected agent's contributions by round"></div></div>
+              <details class="reasoning-details"><summary>Assigned approach <span aria-hidden="true">+</span></summary><p id="agent-reasoning">Select an agent to explore its assigned approach.</p></details>
+            </section>
+
+            <section class="whatif-panel panel" aria-labelledby="whatif-title">
+              <div class="whatif-heading"><div><p class="eyebrow small">Your turn</p><h2 id="whatif-title">Change one choice.</h2></div><button id="reset-whatif" class="text-button" type="button">Reset</button></div>
+              <p class="whatif-intro">What if this agent contributed a different amount? Hold everyone else’s choices fixed.</p>
+              <div class="slider-heading"><label for="contribution-slider">Contribution</label><output id="whatif-contribution" for="contribution-slider">10</output><span> / 20</span></div>
+              <input id="contribution-slider" type="range" min="0" max="20" step="1" value="10" aria-describedby="whatif-note" />
+              <div class="slider-endpoints" aria-hidden="true"><span>Keep all</span><span>Give all</span></div>
+              <div class="payoff-equation" aria-label="Payoff calculation"><div><strong id="whatif-kept">—</strong><span>kept</span></div><span class="math-symbol" aria-hidden="true">+</span><div><strong id="whatif-return">—</strong><span>group return</span></div><span class="math-symbol" aria-hidden="true">=</span><div class="payoff-result"><strong id="whatif-payoff">—</strong><span>their payoff</span></div></div>
+              <div class="pool-note"><span>Shared pool: <strong id="whatif-pool">—</strong> tokens</span><span id="whatif-delta" class="payoff-delta">—</span></div>
+              <p id="whatif-note" class="whatif-note">Each token in the pool returns 0.4 tokens to <strong>each</strong> group member. This calculation does not change the recording.</p>
+            </section>
+          </aside>
+        </div>
+        <p class="replay-note"><span aria-hidden="true">↻</span> A replay of recorded model decisions. Playback makes no new model calls.</p>
+        <div id="announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+      </section>
+
+      <section class="learning-section" aria-labelledby="learning-title">
+        <div class="section-heading"><p class="eyebrow small">A small game. A larger question.</p><h2 id="learning-title">Why cooperation is a dilemma</h2></div>
+        <div class="learning-grid">
+          <article><span class="step-index">01</span><h3>Everyone starts equal.</h3><p>Each agent receives 20 tokens. It can keep any amount and put the rest into a shared pool with three other agents.</p></article>
+          <article><span class="step-index">02</span><h3>Sharing helps the group.</h3><p>Every contributed token returns 0.4 to each member—1.6 tokens across the group. But the contributor personally gets back less than it gave.</p></article>
+          <article><span class="step-index">03</span><h3>Experience travels.</h3><p>Groups change every round. Agents see their previous group’s choices before deciding again. Can that experience shape how they treat new people?</p></article>
+        </div>
+      </section>
+
+      <section class="research-notes" aria-labelledby="research-title">
+        <div class="research-notes-main"><p class="eyebrow small">About this demo</p><h2 id="research-title">A window into the experiment.</h2><p id="source-details">This demo replays one recorded session of a public goods experiment using LLM agents with different assigned dispositions. The persona labels describe assigned prompts, not human participants.</p><p class="research-caveat">The highlights show who interacted. They do not establish a causal effect. One session is an illustration; evidence about cooperation spreading requires analysis across sessions and checks of the estimator.</p></div>
+        <div class="research-notes-side"><h3>Research foundation</h3><p>Inspired by Fowler &amp; Christakis (2010), <cite>Cooperative behavior cascades in human social networks.</cite></p><a class="paper-link" href="https://doi.org/10.1073/pnas.0913149107" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a><button id="download-record" class="button button-secondary" type="button"><span aria-hidden="true">↓</span> Download the session</button></div>
+      </section>
+    </main>
+    <footer class="site-footer page-width"><p>The cooperation lab <span aria-hidden="true">/</span> A research demo by Pooriya Jamie</p><a href="/demos/">Explore more demos <span aria-hidden="true">→</span></a></footer>
+  </body>
+</html>

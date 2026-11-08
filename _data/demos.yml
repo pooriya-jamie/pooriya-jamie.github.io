@@ -72,3 +72,27 @@
     - Annotator & manager views
     - Inter-annotator agreement
     - Synthetic data
+
+- title: Public Goods Game
+  kicker: Cooperation & AI
+  chip: sociotech
+  pitch: >-
+    Explore a recorded public goods experiment with 24 AI agents. Follow their choices as
+    they meet new groups, then change a contribution yourself to see the tension between
+    individual earnings and the good of the group.
+  url: https://pooriya-jamie.github.io/public-goods-demo/
+  code: https://github.com/pooriya-jamie/pooriya-jamie.github.io/tree/master/public-goods-demo
+  image: /assets/img/demos/public-goods.png
+  glow_a: "#178477"
+  glow_b: "#dfb05a"
+  highlights:
+    - icon: fa-solid fa-users
+      text: Replay six rounds as 24 agents regroup without repeating partners
+    - icon: fa-solid fa-magnifying-glass
+      text: Inspect each agent's contribution and feedback from its previous group
+    - icon: fa-solid fa-sliders
+      text: Change one contribution to explore individual and shared payoffs
+  tags:
+    - 24 agents · 6 rounds
+    - Recorded decisions
+    - Interactive payoffs
